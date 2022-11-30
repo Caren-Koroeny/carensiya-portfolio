@@ -30,9 +30,12 @@ ul{
     font-weight: 800;
     font-size: 24px;
     margin-left: 100px;
+    
 }
+
 .logo-part a{
     text-decoration: none;
+    color: #6070ff;
 }
 
 .menu-part{
@@ -53,5 +56,14 @@ ul{
     padding: 10px;
     align-items: center;
     font-style: bold;
-
+}
+.hamburgur{
+    padding: 10px;
+}
+.bar{
+    width: 30px;
+    height: 3px;
+    margin: 4px;
+    background: #6070ff;
+    display: flex;
 }
