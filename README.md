@@ -65,27 +65,20 @@ After you're finished please remove all the comments and instructions!
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
-  <summary>Client</summary>
+  <summary>Markup-Languages</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://reactjs.org/">HTML</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Server</summary>
+  <summary>Styling</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="#">CSS</a></li>
   </ul>
 </details>
 
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
 </details>
 
 <!-- Features -->
@@ -134,7 +127,7 @@ Example command:
 
 ### Setup
 
-Clone this repository to your desired folder: [git clone](https://github.com/Caren-Koroeny/Hello-world)
+Clone this repository to your desired folder: [git clone](https://github.com/Caren-Koroeny/portfolio-template)
 
 <!--
 Example commands:
@@ -148,7 +141,7 @@ Example commands:
 
 ### Usage
 
-Download or fork the repo Open the [index.html](https://github.com/Caren-Koroeny/Hello-world/blob/github/index.html) file with your browser of choice.
+Download or fork the repo Open the [index.html](https://github.com/Caren-Koroeny/portfolio-template/blob/two-sections/index.html) file with your browser of choice.
 
 
 
