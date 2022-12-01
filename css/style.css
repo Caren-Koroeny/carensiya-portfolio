@@ -355,23 +355,23 @@ section {
   align-items: center;
   height: 100%;
 }
-.title-about{
-  top:4769px;
-  width: 375px;
-  height: 1263px;
-  position: absolute;
-  background-color: #ffffff;
-  transform: rotate(-180deg);
-
-}
 .title-about h1 {
+  top: 1000px;
   font-weight: 700;
   font-size: 40px;
   line-height: 50px;
   letter-spacing: 0.37px;
   color: #172b4d;
-  margin-top: 20%;
-  padding: 0 7%;
+  margin-top: 70%;
+  margin-left: -70%;
   align-items: flex-start;
   
+}
+.myself-text{
+  color: #344563;
+  font-size: 16px;
+  /* line-height: 24px; */
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  margin-left: 25px;
 }
