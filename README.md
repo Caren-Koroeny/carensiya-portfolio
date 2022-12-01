@@ -132,9 +132,6 @@ I would like to thank [Microverse Tutorials](https://github.com/microverseinc/cu
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<!-- LICENSE -->
-
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](https://github.com/Caren-Koroeny/Hello-world/blob/master/LICENSE) licensed.
