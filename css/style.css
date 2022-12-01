@@ -370,8 +370,79 @@ section {
 .myself-text{
   color: #344563;
   font-size: 16px;
-  /* line-height: 24px; */
   font-weight: 400;
   font-family: "Poppins", sans-serif;
   margin-left: 25px;
 }
+
+.about-submit-btn {
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  cursor: pointer;
+  border: 1px solid #396DF2;
+  margin-left: -65px;
+ 
+}
+
+
+.about-submit-btn a {
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 20px;
+  color: #396DF2;
+  font-weight: 500;
+  padding: 10px;
+  align-items: center;
+  font-style: bold;
+}
+.social-about{
+    align-self: flex-start;
+    margin-bottom: 5%;
+  }
+  
+.connection-about {
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+    font-weight: 900;
+    padding: 20px 0;
+    margin-left: 20px;
+  }
+  
+  .media-icons-about {
+    display: flex;
+    align-content: center;
+    gap: 15px;
+    left: 6.4%;
+    bottom: 18.88%;
+    top: 77.81%;
+    width: 100%;
+    padding-top: 20px;
+    color: #505f79;
+    margin-left: 20px;
+  }
+  
+  .social ul {
+    list-style: none;
+    margin-left: -65px;
+  }
+  
+  .fa-brands {
+    color: #505f79;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .fa-solid {
+    color: #505f79;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  
+
