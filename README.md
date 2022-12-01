@@ -59,7 +59,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Portfolio <a name="about-project"></a>
 
-**This is an intro part of Portfolio set up and Mobile first.
+** This is an intro part of Portfolio set up and Mobile first.
 
 ## 🛠 Built With <a name="built-with"></a>
 

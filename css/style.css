@@ -133,7 +133,6 @@ section {
 }
 
 .connection {
-  /* width: 11px; */
   height: 24px;
   font-size: 16px;
   line-height: 24px;
@@ -145,8 +144,6 @@ section {
 .media-icons {
   display: flex;
   align-content: center;
-
-  /* justify-content: space-evenly; */
   gap: 15px;
   left: 6.4%;
   bottom: 18.88%;
