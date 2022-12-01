@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 11px;
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+.logo-part {
+  flex: 1;
+  padding: 20px;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.logo-text {
+  color: #6070ff;
+  list-style: none;
+}
+
+.logo-text a {
+  text-decoration: none;
+  color: #6070ff;
+}
+
+.menu-part {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-decoration: none;
+  list-style: none;
+}
+
+.menu-part a {
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 20px;
+  color: #344563;
+  font-weight: 500;
+  padding: 10px;
+  align-items: center;
+  font-style: bold;
+}
+
+.hamburgur {
+  padding: 10px;
+}
+
+.bar {
+  width: 30px;
+  height: 3px;
+  margin: 4px;
+  background: #6070ff;
+  display: flex;
+}
+
+section {
+  display: block;
+  margin: 0 auto;
+  max-width: 375px;
+}
+
+.background {
+  background: url(/images/header-shapes-mobile.png);
+  max-width: 375px;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height: 100%;
+  left: -34px;
+  margin-top: 2%;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.intro-text {
+  max-width: 375px;
+}
+
+.intro-text h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 50px;
+  align-items: center;
+  letter-spacing: 0.37px;
+  color: #091e42;
+  margin-top: 15%;
+  padding: 0 7%;
+}
+
+.main-text {
+  grid-column: 3;
+  grid-row: 10;
+  padding: 7%;
+}
+
+.text-description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #344653;
+}
+
+.social {
+  align-self: flex-start;
+  margin-bottom: 5%;
+}
+
+.connection {
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  font-weight: 900;
+  padding: 20px 0;
+}
+
+.media-icons {
+  display: flex;
+  align-content: center;
+  gap: 15px;
+  left: 6.4%;
+  bottom: 18.88%;
+  top: 77.81%;
+  width: 100%;
+  padding-top: 20px;
+  color: #505f79;
+}
+
+.social ul {
+  list-style: none;
+}
+
+.fa-brands {
+  color: #505f79;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.fa-solid {
+  color: #505f79;
+  font-size: 20px;
+  font-weight: 500;
+}
