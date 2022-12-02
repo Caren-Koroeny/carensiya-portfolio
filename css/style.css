@@ -462,71 +462,70 @@ section {
   }
   
 
-.lang {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  margin-top: 60px;
-  max-width: 375px;
-  height: 100%;
- 
+  .lang {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 365px;
+    margin-left: 5%;
+    margin-top: 120px;
 }
-.about-lang{
+.about-lang {
+  font-weight: 700;
   font-size: 30px;
-  margin-top: 60px;
-  display: flex;
-  font-family: "Poppins", sans-serif;
-  align-items: flex-start;
-  font-weight: 800;
+  line-height: 50px;
   letter-spacing: 0.37px;
-  position: absolute;
-  height: 24px;
-  left: 35%;
-  right: 100px;
-  color:#000000;
-
+  margin-top: 20%;
+  margin-left: -25%;
+  font-family: "Poppins",sans-serif;
+  align-items: flex-start;
 }
 
 .lang-list{
   display: flex;
+  /* border: 1px solid black; */
+  margin-left: -40%;
+  height: 300px;
+  padding: 10px;
+  background:   #F7F7F9;
   flex-direction: column;
-  gap: 10%;
-  justify-content: center;
-  align-items: flex-start;
-  margin-top: 70px;
-  max-width: 375px;
-  height: 100%;
-  margin-left: -20%;
 }
-.three-lang{
-width: 303px;
-height: 66.72px;
-background: #F7F7F9;
-border-radius: 8px;
-/* flex: none; */
-order: 2;
-flex-grow: 0;
-list-style: none;
-gap: 50%;
-display: flex;
-flex-direction: column;
+.display-flex li{
+ display: flex;
+ padding: 10px;
+ margin: 10px;
+ gap: 25px;
+ order: 1;
+ justify-items: center;
+ border-radius: 10px;
+ border: 1px solid black;
+}
+.works-frame{
+  border: 1px solid black;
+  margin-top: 40px;
+  width: 100%;
+  height: 250px;
+  margin-left: -30%;
+  padding: 10px;  
+}
+.display-skills{
+  /* border: 1px solid black; */
+  list-style: none;
+ 
 
 }
-.language-list{
-  display: flex;
-  /* gap: 50px; */
-  height: 80px;
-  width: 100%;
-  
-  color: blue;
-}
-.three-lang li{
+.frame-work li{
   border: 1px solid black;
-  border-radius: 10px;
-  /* display: flex; */
-  gap: 10%;
-}
-.language{
+  list-style: none;
   display: flex;
+  display: flex;
+ padding: 10px;
+ margin: 10px;
+ gap: 25px;
+ order: 1;
+ justify-items: center;
+ border-radius: 10px;
+ border: 1px solid black;
   
 }
