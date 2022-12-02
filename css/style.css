@@ -346,10 +346,12 @@ section {
   border: 1px solid #396df2;
   transform: translate(0.5s);
 }
-.submit-btn:hover{
-  color:#396df2;
+
+.submit-btn:hover {
+  color: #396df2;
   transition: 0.5s;
 }
+
 .container-about {
   display: grid;
   justify-content: center;
