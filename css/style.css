@@ -593,16 +593,23 @@ section {
   padding: 0 13%;
 }
 
+.action-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 11px;
+}
+
 .contact-form {
   border-radius: 5px;
   padding: 0 20px;
 }
 
 input[type=text],
+input[type=email],
 select,
 textarea {
   width: 100%;
-  padding: 12px;
+  padding: 5px;
   box-sizing: border-box;
   margin-top: 4px;
   margin-bottom: 16px;
@@ -622,7 +629,10 @@ textarea {
 .label{
   outline: none;
   width: 327px;
- 
+  height: 48px;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  left: 16px;
 }
 
 .submit-btn2 {
