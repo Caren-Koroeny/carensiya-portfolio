@@ -608,6 +608,21 @@ textarea {
   margin-bottom: 16px;
   border-radius: 10px;
   border: 1px solid #cfd8dc;
+  outline: none;
+}
+.text-area{
+  height: 170px;
+
+}
+
+::placeholder{
+  color: #172B4D;
+}
+
+.label{
+  outline: none;
+  width: 327px;
+ 
 }
 
 .submit-btn2 {
