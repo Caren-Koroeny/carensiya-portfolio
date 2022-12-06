@@ -617,23 +617,21 @@ textarea {
   border: 1px solid #cfd8dc;
   outline: none;
 }
-.text-area{
+
+.text-area {
   height: 170px;
-  color: #B3BAC5;
-  
-
-
+  color: #b3bac5;
 }
 
-.label::placeholder{
-  color: #172B4D;
+.label::placeholder {
+  color: #172b4d;
 }
 
-.label{
+.label {
   outline: none;
   width: 327px;
   height: 48px;
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
   left: 16px;
 }
@@ -649,9 +647,9 @@ textarea {
   background: #fff;
   border-radius: 8px;
   border: none;
-  color: #6070FF;
+  color: #6070ff;
   font-size: 17px;
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .img-form {
