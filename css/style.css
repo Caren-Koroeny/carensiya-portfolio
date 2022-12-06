@@ -619,10 +619,13 @@ textarea {
 }
 .text-area{
   height: 170px;
+  color: #B3BAC5;
+  
+
 
 }
 
-::placeholder{
+.label::placeholder{
   color: #172B4D;
 }
 
