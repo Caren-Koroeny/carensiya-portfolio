@@ -295,6 +295,12 @@ body {
     margin: 5px;
     object-fit: cover;
     padding: 2px 0;
+    transition-duration: 3s;
+  }
+
+  .desktop-image1:hover {
+    width: 50%;
+    height: 50%;
   }
 
   .desktop-image2{
