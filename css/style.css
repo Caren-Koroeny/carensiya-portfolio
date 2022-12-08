@@ -179,7 +179,8 @@ body {
     background: #FFFFFF;
     border: 1px solid #DFE1E6;
     border-radius: 24px;
-    margin: 20px;
+    margin: 10px;
+    height: 100%;
    
 }
   .project-title{
@@ -744,6 +745,9 @@ body {
   form {
     margin-top: 2%;
   }
+  .contanct-containter.mobile{
+    display: none;
+  }
   
 }
   
@@ -776,7 +780,6 @@ body {
   }
   .rubby{
     display: none;
-    background-color: green;
   }
   .text-1.desktop{
     display: none;
@@ -788,6 +791,12 @@ body {
     display: none;
   }
   .text-3.years{
+    display: none;
+  }
+  .label.desktop{
+    display: none;
+  }
+  .label.desktop{
     display: none;
   }
   header {
