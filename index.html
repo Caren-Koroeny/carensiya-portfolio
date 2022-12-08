@@ -136,21 +136,30 @@
       <img src="./images/image-2.png" alt="" class="image">
       
       <div class="left-card1-block">
-        <h1 class="project-title">Multi-Post <br>
+        <h1 class="project-title mobile">Multi-Post <br>
           Stories</h1>
+          <h1 class="project-title desktop">Multi-Post Stories</h1>
         <ul class="project-badges">
-          <li class="text-1">Canopy</li>
+          <li class="text-1 mobile2">Canopy</li>
+          <li class="text-1 desktop-facebook">FACEBOOK</li>
           <img src="./images/counter-images.png" alt="" class="counter-image">
-          <li class="text-2">
+          <li class="text-2 mobilebackend">
             <p>Back&nbspEnd&nbspDev</p>
+          </li>
+          <li class="text-2 desktopfullstack">
+          Full&nbspStack&nbspDev</p>
           </li>
           <img src="./images/counter-images.png" alt="" class="counter-image">
           <li class="text-3">2015</li>
         </ul>
 
-        <p class="project-description">
+        <p class="project-description mobile2">
           A daily selection of privately personalized reads; no accounts or sign-ups required.
         </p>
+        <p class="project-description desktop2">
+          Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.
+        </p>
+
         <br>
         <ul class="language-categories">
           <li>html</li>
@@ -171,21 +180,34 @@
       <img src="./images/image-3.png" alt="" class="image">
       <img src="./images/desktop-image3.png" alt="" class="desktop-image3">
       <div class="left-card1-block">
-        <h1 class="project-title">Tonic</h1>
+        <h1 class="project-title mobile">Tonic</h1>
+        <h1 class="project-title desktop">Facebook 360</h1>
         
         <ul class="project-badges">
-          <li class="text-1">Canopy</li>
+          <li class="text-1 mobile">Canopy</li>
+          <li class="text-1 desktop">FACEBOOK</li>
           <img src="./images/counter-images.png" alt="" class="counter-image">
-          <li class="text-2">
-            <p>Back&nbspEnd&nbspDev</p>
+
+          <li class="text-2 mobile">
+            Back&nbspEnd&nbspDev
+          </li>
+
+          <li class="text-2 desktop">
+            Full&nbspStack&nbspDev
           </li>
           <img src="./images/counter-images.png" alt="" class="counter-image">
           <li class="text-3">2015</li>
+          
         </ul>
 
-        <p class="project-description">
+        <p class="project-description mobile">
           A daily selection of privately personalized reads; no accounts or sign-ups required.
         </p>
+
+        <p class="project-description desktop">
+          Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.
+        </p>
+
         <br>
         <ul class="language-categories">
          
@@ -194,8 +216,17 @@
           <li>css</li>
           <li>javascript</li>
         </ul>
-        <button class="submit-btn" type="submit">See Project</button>
-      </div>
+        
+        
+          
+          <div> 
+            <button class="submit-btn mobile" type="submit" >See Project</button>
+            <button class="submit-btn desktop" type="submit" >See Project</button>
+            <div class="handcursor"><img src="./images/hand-cursor1.svg" alt=""></div>
+          </div>
+          
+          
+        
 
     </div>
   
@@ -325,9 +356,10 @@
 
     <div class="contanct-containter ">
       <footer class="contact-info">
-        <div class="backgound-image">
+        <div class="backgound-image"></div>
+        <div class="backgound-image desktop">
           <div class="contact-title">
-            <h2 class="title2">Contact me</h2>
+            <h2 class="title2 desktop">Contact me</h2>
             <p class="contacts-info">
             If you have an application you are interested in developing, a feature that you need built or a project that
             needs coding. I’d love to help with it
@@ -342,7 +374,7 @@
                 <textarea class="text-area" id="subject" name="subject" placeholder="Write your message here"  maxlength="500" required ></textarea>
                 <button class="submit-btn2">Get it Touch</button>
               </form>
-              <img src="./images/Shape.svg" class="img-form">
+              <img src="./images/Shape.svg" class="img-form" id="image-form">
             </div>
           </div>
         </div>
