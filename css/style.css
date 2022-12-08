@@ -778,6 +778,18 @@ body {
     display: none;
     background-color: green;
   }
+  .text-1.desktop{
+    display: none;
+  }
+  .project-title.desktop{
+    display: none;
+  }
+  .text-2.mobile{
+    display: none;
+  }
+  .text-3.years{
+    display: none;
+  }
   header {
     display: flex;
     justify-content: center;
