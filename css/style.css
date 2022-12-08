@@ -246,8 +246,6 @@ body {
   }
 
   .project-description{
-    /* width: 496px; */
-    /* height: 50px; */
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -336,6 +334,267 @@ body {
     color: #396df2;
     transition: 0.5s;
   }
+
+  .container-about {
+    border: 2px solid black;
+    padding: 200px;
+
+  }
+
+  .card-about{
+   
+  }
+  .cardabout-skill{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 150px);
+    gap: 20px;
+    left: 10px;
+    right: 0px;
+    margin-top: -3%;
+    top: 0px;
+    bottom: 0px;
+    height: 500px;
+    background: #FFFFFF;
+    border: 1px solid #DFE1E6;
+    border-radius: 24px;
+    border: 1px solid black;
+
+  }
+  .title-about{
+    padding: 10px;
+    width: 447px;
+    height: 114px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #091E42;
+
+  }
+
+  .myself-text{
+    display: flex;
+    width: 427px;
+    padding: 10px;
+    margin-top: 15px;
+    height: 102px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    flex: none;
+    order: 1;
+
+  }
+
+  button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    width: 162px;
+    height: 48px;
+    border: 1px solid #6070FF;
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+      }
+  
+  .social-about{
+    padding: 20px 0;
+    margin-left:10px;
+    margin-top: 15px;
+
+  }
+
+  .connection-about{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7F8CFF;
+    
+  }
+
+  .media-icons-about{
+    display: flex;
+    list-style: none;
+    padding: 5px 0;
+    gap: 10px;
+    left: 28.89%;
+    right: 70.13%;
+    top: 12.53%;
+    bottom: 87.08%;
+    color: #505F79;
+
+  }
+
+  .about-submit-btn {
+    width: 200px;
+    height: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #396DF2;
+    margin-left:10px;
+  
+
+  }
+  
+  .about-submit-btn a {
+    text-decoration: none;
+    /* font-size: 25px; */
+    line-height: 20px;
+    color: #396df2;
+    font-weight: 500;
+    padding: 10px;
+    align-items: center;
+    font-style: bold;
+  }
+  
+  .social-about {
+    align-self: flex-start;
+    margin-bottom: 5%;
+  }
+
+  .lang{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    padding: 10px;
+  }
+
+  .about-lang{
+    height: 24px;
+    left: 24px;
+    right: 78px;
+    top: calc(50% - 24px/2);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #344563;
+  }
+
+  .display-flex ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .language{
+    width: 98px;
+    height: 24px;
+    left: 12px;
+    margin-top: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #253858;
+
+  }
+  .language-list{
+    width: 122px;
+    height: 120px;
+    background: #F7F7F9;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 50px;
+  }
+
+  .frame-work{
+    height: 24px;
+    left: 24px;
+    right: 78px;
+    top: calc(50% - 24px/2);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #344563;
+  }
+
+  .works-frame{
+    margin-top: 10px;
+  }
+
+  .down-arrow{
+    right: 33.33%;
+    top: 25%;
+    bottom: 25%;
+    margin-left: 45%;
+    left: 41.67%;
+    right: 33.33%;
+    top: 25%;
+    bottom: 2;
+  }
+  .left-arrow{
+    right: 33.33%;
+    top: 25%;
+    bottom: 25%;
+    margin-left: 45%;
+    left: 41.67%;
+    right: 33.33%;
+    top: 25%;
+    bottom: 2;
+  }
+
+  .left-arrow2{
+    margin-left: 61%;
+    left: 41.67%;
+    /* right: 33.33%; */
+    top: 30%;
+    bottom: 2;
+  }
+
+  .contanct-containter{
+    border: 2px solid black;
+    padding: 200px;
+    display: flex;
+    margin-left: -5%;
+    /* background-color: #6070ff; */
+    border-top-left-radius: 100px;
+
+  }
+
+  .backgound-image {
+    background-image: url(/images/contctform-bg.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-top: 2%;
+    position: absolute;
+    width: 265px;
+    height: 709.17px;
+    margin-left: 142px;
+  }
 }
 
 @media (max-width:480px) {
@@ -353,6 +612,13 @@ body {
   }
 
   .desktop-image3 {
+    display: none;
+  }
+  .desktop-image4{
+    display: none;
+  }
+
+  .cardabout-skill{
     display: none;
   }
   header {
