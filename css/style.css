@@ -309,9 +309,14 @@ body {
     border-radius: 8px;
     margin: 5px;
     object-fit: cover;
-
+    transition-duration: 2s;
   }
 
+  .desktop-image2:hover {
+    width: 30%;
+    height: 30%;
+  }
+  
   .desktop-image3{
     width: 540px;
     height: 448px;
