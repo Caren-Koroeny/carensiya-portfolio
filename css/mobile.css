@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 @media (max-width: 480px) {
-  .contanct-containter{
-    background: #6070FF;;
+  .contanct-containter {
+    background: #6070ff;
     height: 100%;
     max-width: 375px;
     border-top-left-radius: 100px;
-}
-  
-  .text-2.mobile{
+  }
+
+  .text-2.mobile {
     display: none;
   }
+
   .handcursor {
     display: none;
   }
@@ -62,15 +63,11 @@
   /* .language-categories > li:nth-child(2) {
         display: none;
       } */
-    .rubby{
-        display: none;
-      }
-
-  .text-1.desktop {
+  .rubby {
     display: none;
   }
 
-  .text-2.mobile {
+  .text-1.desktop {
     display: none;
   }
 
@@ -256,6 +253,7 @@
     width: 100%;
     gap: 3%;
   }
+
   .card {
     box-sizing: border-box;
     display: flex;
@@ -266,12 +264,13 @@
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
+
     /* flex: none;
     order: 0;
     flex-grow: 0; */
     margin: 10px;
     max-width: 327px;
-}
+  }
 
   .image {
     top: 16px;
@@ -280,8 +279,8 @@
     border-radius: 8px;
     margin: 5px;
   }
+
   .project-title {
-   
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -322,7 +321,7 @@
   .counter-image {
     border-radius: 50%;
     padding-top: 5px;
-}
+  }
 
   .text-2 {
     color: #7a869a;
@@ -344,6 +343,7 @@
     font-size: 16px;
     line-height: 16px;
   }
+
   .project-description {
     color: #344563;
     font-weight: 400;
@@ -351,24 +351,26 @@
     line-height: 1.6rem;
     font-size: 16px;
     padding: 10px;
-}
+  }
 
-.language-categories {
-  display: flex;
-  gap: 10px;
-  padding: 10px 0;
-  list-style: none;
-  flex-direction: row;
-}
-#rubby-desktop-1,
-#rubby-desktop-2,
-#rubby-desktop-3
-{
-  display: none;
-}
-.project-description.desktop{
-  display: none;
-}
+  .language-categories {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+    list-style: none;
+    flex-direction: row;
+  }
+
+  #rubby-desktop-1,
+  #rubby-desktop-2,
+  #rubby-desktop-3 {
+    display: none;
+  }
+
+  .project-description.desktop {
+    display: none;
+  }
+
   .language-categories > li {
     display: flex;
     align-items: center;
@@ -396,9 +398,6 @@
     background-color: #f7f7f9;
   }
 
-
-
-  
   .submit-btn {
     color: #396df2;
     font-family: 'Poppins', sans-serif;
@@ -410,18 +409,14 @@
     align-items: center;
     text-align: center;
     letter-spacing: 0.03em;
-    
     box-sizing: border-box;
-    display: flex;
     flex-direction: column;
-    align-items: center;
     padding: 16px;
     gap: 12px;
-    background: #FFFFFF;
-    border: 1px solid #396DF2;
+    background: #fff;
+    border: 1px solid #396df2;
     border-radius: 16px;
     margin: 4%;
-
   }
 
   .submit-btn:hover {
@@ -436,7 +431,7 @@
     height: 100%;
     margin-top: 70%;
     width: 375px;
-}
+  }
 
   .card-about {
     box-sizing: border-box;
@@ -449,19 +444,20 @@
     border: 1px solid #f0e9e9;
     border-top-right-radius: 50px;
   }
-  .title-about{
+
+  .title-about {
     display: flex;
     flex-direction: row;
     padding: 0 10px;
     gap: 10px;
-
   }
+
   .down-arrow {
     padding: 10px;
     margin-top: 15%;
     margin-left: 30%;
-}
-  
+  }
+
   .title-about h1 {
     top: 1000px;
     font-weight: 700;
@@ -618,19 +614,21 @@
     background: #dfe1e6;
   }
 
-.backgound-image.mobile {
-  background-image: url(../images/contact-form-shapes-mobile.svg);
-  background-repeat: no-repeat;
-  object-fit: cover;
-  margin-top: 48%;
-  height: 709.16552734375px;
-  max-width: 265px;
-  left: 153px;
-  position: relative;
-}
-.backgound-image.desktop{
-  display: none;
-}
+  .backgound-image.mobile {
+    background-image: url(../images/contact-form-shapes-mobile.svg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-top: 48%;
+    height: 709.16552734375px;
+    max-width: 265px;
+    left: 153px;
+    position: relative;
+  }
+
+  .backgound-image.desktop {
+    display: none;
+  }
+
   .contact-title {
     margin-top: -180%;
   }
