@@ -91,7 +91,7 @@ body {
   }
 
   .main {
-    background-image: url(/images/main-background.jpg);
+    background-image: url("../images/main-background.jpg");
     background-repeat: no-repeat;
     object-fit: cover;
     width: 100%;
@@ -584,7 +584,7 @@ body {
   }
 
   .backgound-image.desktop {
-    background-image: url(/images/desktop-bg.svg);
+    background-image: url(../images/desktop-bg.svg);
     background-repeat: no-repeat;
     object-fit: fill;
     margin-top: 2%;
@@ -750,6 +750,15 @@ body {
   .project-description.mobile2 {
     display: none;
   }
+  .contanct-containter.mobile{
+    display: none;
+  }
+  .contact-info.mobile{
+    display: none;
+  }
+  .title-about.mobile{
+    display: none;
+  }
 
   #image-form {
     display: none;
@@ -757,6 +766,9 @@ body {
 }
 
 @media (max-width: 480px) {
+  .contanct-containter.desktop{
+    display: none;
+  }
   .handcursor {
     display: none;
   }
@@ -1355,19 +1367,21 @@ body {
     background: #dfe1e6;
   }
 
-  .contanct-containter {
+  /* .contanct-containter {
     display: flex;
-    margin-top: 60%;
+    margin-top: 80%;
     max-width: 365px;
+    border: 1px solid black;
     margin-left: -5%;
     background-color: #6070ff;
     border-top-left-radius: 100px;
-  }
+  } */
 
   .contact-info {
-    border-top-left-radius: 100px;
-    top: 5410px;
-    height: 100%;
+    /* border-top-left-radius: 100px; */
+    /* top: 5410px; */
+    /* height: 100%; */
+    border: 1px solid black;
   }
 
   .backgound-image {
