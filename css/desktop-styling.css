@@ -182,7 +182,6 @@ body {
     background: rgb(255, 255, 255);
     height: 100%;
     margin-top: 5%;
-   
   }
 
   .left-card1-block.one {
@@ -200,11 +199,12 @@ body {
     margin-top: 15%;
     width: 400px;
   }
-  .left.card1.block.four{
+
+  .left.card1.block.four {
     margin-top: 3%;
     margin-left: 40px;
-
   }
+
   .project-description.four {
     width: 500px;
   }
@@ -339,10 +339,11 @@ body {
     object-fit: cover;
     padding: 20px;
   }
-  .project-description.desktop2.text{
+
+  .project-description.desktop2.text {
     width: 450px;
   }
-    
+
   .desktop-image3 {
     max-width: 540px;
     max-height: 448px;
