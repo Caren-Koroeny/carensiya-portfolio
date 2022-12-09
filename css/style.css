@@ -23,6 +23,7 @@ body {
 
   .logo-part {
     display: none;
+  
   }
 
   .desktop-menu {
@@ -66,7 +67,7 @@ body {
 
   .left {
     flex: 1;
-    margin-left: 5%;
+    padding-left: 150px;
   }
 
   .left-nav-link {
@@ -88,6 +89,7 @@ body {
     line-height: 20px;
     font-style: normal;
     font-weight: 500;
+    margin-right: 10%;
   }
 
   .main {
