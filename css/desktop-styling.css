@@ -158,8 +158,6 @@ body {
 
   .container {
     margin-left: 3%;
-
-    /* top: 12.53%; */
     margin-top: 10%;
   }
 
@@ -181,10 +179,26 @@ body {
 
   .left-card1-block {
     flex-direction: column;
-    background: #fff;
-    margin: 10px;
+    background: rgb(255, 255, 255);
     height: 100%;
+    margin-top: 9%;
+}
+  .left-card1-block.one{
+    margin-left: -10%;
+    
+}
+.left-card1-block.two{
     margin-top: 10%;
+    
+    
+}
+.left-card1-block.three{
+    margin-left: -16%;
+    
+}
+
+  .project-description.four{
+    width: 500px;
   }
 
   .project-title {
@@ -264,15 +278,24 @@ body {
     line-height: 24px;
     color: #344563;
     flex: none;
+    margin-left: 20px;
     flex-grow: 0;
     margin-top: 30px;
+   
   }
+  .project-description.desktop.three{
+    width: 400px;
+
+
+  } 
 
   .language-categories {
     list-style: none;
     display: flex;
-    gap: 5px;
+    gap: 15px;
     padding: 10px 0;
+    margin-left: 20px;
+    margin-top: 5px;
   }
 
   .language-categories li {
@@ -295,11 +318,11 @@ body {
   .desktop-image1 {
     width: 540px;
     height: 448px;
-    left: 24px;
+    margin-left: -20px;
     border-radius: 8px;
     margin: 5px;
     object-fit: cover;
-    padding: 2px 0;
+    padding: 10px;
   }
 
   .desktop-image2 {
@@ -317,6 +340,7 @@ body {
     margin: 5px;
     object-fit: cover;
     padding: 30px;
+    margin-left: -20px;
   }
 
   .submit-btn.desktop {
@@ -333,7 +357,7 @@ body {
 
   .submit-btn {
     border-radius: 16px;
-    margin-left: 2px;
+    margin-left: 20px;
     margin-top: 5%;
     width: 150px;
     font-family: 'Poppins', sans-serif;
@@ -480,8 +504,9 @@ body {
   }
 
   .desktop-image4 {
-    padding: 10px;
     margin-top: 5%;
+    margin-left: -12%;
+    width: 100%
   }
 
   .lang {
@@ -678,7 +703,7 @@ body {
     box-sizing: border-box;
     margin-top: 14px;
     margin-bottom: 16px;
-    border-radius: 10px;
+   
     border: 1px solid #cfd8dc;
     outline: none;
   }
@@ -698,7 +723,6 @@ body {
     width: 327px;
     height: 48px;
     border: 1px solid #cfd8dc;
-    border-radius: 8px;
     left: 16px;
   }
 
