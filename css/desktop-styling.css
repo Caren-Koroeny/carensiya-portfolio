@@ -181,21 +181,30 @@ body {
     flex-direction: column;
     background: rgb(255, 255, 255);
     height: 100%;
-    margin-top: 9%;
+    margin-top: 5%;
+   
   }
 
   .left-card1-block.one {
-    margin-left: -10%;
+    margin-left: -6%;
+    margin-top: 8%;
   }
 
   .left-card1-block.two {
-    margin-top: 10%;
+    margin-top: 8%;
+    margin-left: 35px;
   }
 
   .left-card1-block.three {
-    margin-left: -16%;
+    margin-left: -10%;
+    margin-top: 15%;
+    width: 400px;
   }
+  .left.card1.block.four{
+    margin-top: 3%;
+    margin-left: 40px;
 
+  }
   .project-description.four {
     width: 500px;
   }
@@ -292,6 +301,7 @@ body {
     gap: 15px;
     padding: 10px 0;
     margin-left: 20px;
+    width: 400px;
     margin-top: 5px;
   }
 
@@ -315,28 +325,32 @@ body {
   .desktop-image1 {
     width: 540px;
     height: 448px;
-    margin-left: 5px;
+    margin-left: 20px;
     border-radius: 8px;
     object-fit: cover;
     padding: 10px;
+    margin-top: 5%;
   }
 
   .desktop-image2 {
-    width: 540px;
-    height: 448px;
+    max-width: 540px;
+    max-height: 448px;
     border-radius: 8px;
-    margin: 5px;
     object-fit: cover;
+    padding: 20px;
   }
-
+  .project-description.desktop2.text{
+    width: 450px;
+  }
+    
   .desktop-image3 {
     max-width: 540px;
     max-height: 448px;
     border-radius: 8px;
-    margin: 5px;
     object-fit: cover;
     padding: 30px;
     margin-left: -20px;
+    margin-top: 5%;
   }
 
   .submit-btn.desktop {
@@ -500,9 +514,13 @@ body {
   }
 
   .desktop-image4 {
+    max-width: 540px;
+    max-height: 448px;
+    border-radius: 8px;
+    object-fit: cover;
+    padding: 20px;
     margin-top: 5%;
-    margin-left: -12%;
-    width: 100%;
+    margin-left: 7%;
   }
 
   .lang {
