@@ -6,18 +6,30 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/desktop-styling.css">
+  <link rel="stylesheet" href="css/mobile.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" />
 </head>
 
 <body>
   <header>
     <nav>
+      <div class="desktop-menu">
+        <ul class="desktop-nav-elements">
+          <div class="left">
+            <li class="left-nav-link"> <a href="#">My Logo</a></li>
+          </div>
+          <div class="right">
+            <li class="nav-links"> <a href="#">Portfolio</a></li>
+            <li class="nav-links"> <a href="#">About</a></li>
+            <li class="nav-links"> <a href="#">Contact</a></li>
+          </div>
+          
+        </ul>
+      </div>
       <div class="logo-part">
         <li class="logo-text"><a href="#">My Logo</a></li>
       </div>
-
-
       <ul class="hamburgur">
 
         <span class="bar"></span>
@@ -45,6 +57,8 @@
             I’m a software developer! I can help you build a product , feature or website Look through some of my work
             and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
           </p>
+        </div>
+
           <div class="social">
             <h2 class="connection">LET'S CONNECT</h2>
             <ul class="media-icons">
@@ -79,7 +93,7 @@
               </li>
             </ul>
           </div>
-        </div>
+       
       </div>
     </div>
   </section>
@@ -87,14 +101,16 @@
   <section class="container">
     <div class="card">
       <img src="./images/image-1.png" alt="" class="image">
-      <div class="left-card1-block">
+      <img src="./images/desktop-image1.png" alt="" class="desktop-image1">
+
+      <div class="left-card1-block one">
         <h1 class="project-title">Tonic</h1>
         
         <ul class="project-badges">
-          <li class="text-1">Canopy</li>
+          <li class="text-1 ">Canopy</li>
           <img src="./images/counter-images.png" alt="" class="counter-image">
           <li class="text-2">
-            <p>Back&nbspEnd&nbspDev</p>
+            Back&nbspEnd&nbspDev
           </li>
           <img src="./images/counter-images.png" alt="" class="counter-image">
           <li class="text-3">2015</li>
@@ -117,64 +133,101 @@
     </div>
 
     <div class="card">
+      
       <img src="./images/image-2.png" alt="" class="image">
-      <div class="left-card1-block">
-        <h1 class="project-title">Multi-Post <br>
+      
+      <div class="left-card1-block two">
+        <h1 class="project-title mobile">Multi-Post <br>
           Stories</h1>
+          <h1 class="project-title desktop">Multi-Post Stories</h1>
         <ul class="project-badges">
-          <li class="text-1">Canopy</li>
+          <li class="text-1 mobile2">Canopy</li>
+          <li class="text-1 desktop-facebook">FACEBOOK</li>
           <img src="./images/counter-images.png" alt="" class="counter-image">
-          <li class="text-2">
+          <li class="text-2 mobilebackend">
             <p>Back&nbspEnd&nbspDev</p>
+          </li>
+          <li class="text-2 desktopfullstack">
+          Full&nbspStack&nbspDev</p>
           </li>
           <img src="./images/counter-images.png" alt="" class="counter-image">
           <li class="text-3">2015</li>
         </ul>
 
-        <p class="project-description">
+        <p class="project-description mobile2">
           A daily selection of privately personalized reads; no accounts or sign-ups required.
         </p>
-        <br>
-        <ul class="language-categories">
+        <p class="project-description desktop2 text">
+          Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.
+        </p>
 
+        <ul class="language-categories">
           <li>html</li>
+          <li id="rubby-desktop-1">Ruby on rails</li>
           <li>css</li>
           <li>javascript</li>
         </ul>
         <button class="submit-btn" type="submit">See Project</button>
       </div>
 
+      <img src="./images/desktop-image2.png" alt="" class="desktop-image2">
+   
     </div>
 
     </div>
 
     <div class="card">
       <img src="./images/image-3.png" alt="" class="image">
-      <div class="left-card1-block">
-        <h1 class="project-title">Tonic</h1>
+      <img src="./images/desktop-image3.png" alt="" class="desktop-image3">
+      <div class="left-card1-block three">
+        <h1 class="project-title mobile">Tonic</h1>
+        <h1 class="project-title desktop">Facebook 360</h1>
         
         <ul class="project-badges">
-          <li class="text-1">Canopy</li>
+          <li class="text-1 mobile">Canopy</li>
+          <li class="text-1 desktop">FACEBOOK</li>
           <img src="./images/counter-images.png" alt="" class="counter-image">
-          <li class="text-2">
-            <p>Back&nbspEnd&nbspDev</p>
+
+          <li class="text-2 mobile">
+            Back&nbspEnd&nbspDev
+          </li>
+
+          <li class="text-2 desktop">
+            Full&nbspStack&nbspDev
           </li>
           <img src="./images/counter-images.png" alt="" class="counter-image">
           <li class="text-3">2015</li>
+          
         </ul>
 
-        <p class="project-description">
+        
+        <p class="project-description mobile2" >
           A daily selection of privately personalized reads; no accounts or sign-ups required.
         </p>
+
+        <p class="project-description desktop three">
+          Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.
+        </p>
+
         <br>
         <ul class="language-categories">
          
           <li>html</li>
+          <li id="rubby-desktop-2">Rubby on rails</li>
           <li>css</li>
           <li>javascript</li>
         </ul>
-        <button class="submit-btn" type="submit">See Project</button>
-      </div>
+        
+        
+          
+          <div> 
+            <button class="submit-btn mobile" type="submit" >See Project</button>
+            <button class="submit-btn desktop" type="submit" >See Project</button>
+            <div class="handcursor"><img src="./images/hand-cursor1.svg" alt=""></div>
+          </div>
+          
+          
+        
 
     </div>
   
@@ -182,37 +235,51 @@
 
     <div class="card">
       <img src="./images/image-4.png" alt="" class="image">
-      <div class="left-card1-block">
-        <h1 class="project-title">Multi-Post <br> Stories</h1>
+      <div class="left-card1-block four">
+        <h1 class="project-title mobile">Multi-Post <br> Stories</h1>
+        <h1 class="project-title desktop">Uber Navigation</h1>
         
         <ul class="project-badges">
-          <li class="text-1">Canopy</li>
+          <li class="text-1 dektop">Canopy</li>
+          <li class="text-1 desktop">Uber</li>
           <img src="./images/counter-images.png" alt="" class="counter-image">
-          <li class="text-2">
-            <p>Back&nbspEnd&nbspDev</p>
+          <li class="text-2 mobile">
+            Back&nbspEnd&nbspDev
           </li>
+          <li class="text-2 desktop">
+            <p>Lead&nbspDeveloper</p>
+          </li>
+
           <img src="./images/counter-images.png" alt="" class="counter-image">
-          <li class="text-3">2015</li>
+          <li class="text-3 year">2015</li>
+          <li class="text-3 years">2018</li>
+
         </ul>
 
-        <p class="project-description">
+        <p class="project-description mobile">
           A daily selection of privately personalized reads; no accounts or sign-ups required.
+        </p>
+
+        <p class="project-description four">
+          A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.
         </p>
         <br>
         <ul class="language-categories">
           <li>html</li>
+          <li id="rubby-desktop-3">Rubby on rails</li>
           <li>css</li>
           <li>javascript</li>
         </ul>
         <button class="submit-btn" type="submit">See Project</button>
       </div>
-
+      <img src="./images/desktop-image4.png" alt="" class="desktop-image4">
     </div>
 
     </div>
   </section>
 
   <section class="container-about">
+    <div class="cardabout-skill">
     <div class="card-about">
       <div class="title-about">
         <h1>
@@ -244,6 +311,7 @@
     <div class="lang">
       <div class="title-about">
         <h3 class="about-lang">Languages</h3>
+        <img src="./images/Union.svg" alt="" class="down-arrow">
       </div>
       <div class="lang-list">
         <div class="display-flex">
@@ -284,37 +352,34 @@
       </ul>
 
     </div>
+    </div>
+</section>
 
-    <div class="contanct-containter">
+    <section class="contanct-containter">
       <footer class="contact-info">
-        <div class="backgound-image"></div>
-
+        <div class="backgound-image mobile"></div>
+        <div class="backgound-image desktop"></div>
           <div class="contact-title">
-            <h2 class="title2">Contact me</h2>
-          </div>
-          <div class="contacts-info">
-            <p>
+            <h2 class="title2 desktop">Contact me</h2>
+            <p class="contacts-info">
             If you have an application you are interested in developing, a feature that you need built or a project that
             needs coding. I’d love to help with it
             </p>
+            <div class="contact-form">
+              <form class="action-form" action="https://formspree.io/f/{form_id}" method="post">
+                <input type="text" class="label first" id="name" name="firstname" placeholder="Yeremias" maxlength="30" required>
+                <input type="text" class="label desktop" id="name" name="firstname" placeholder="Alexandra Loremipsum" maxlength="30" required>
+                <input type="email" class="label email" id="email" name="email" placeholder="natajayanji4@gmail.com"  required>
+                <input type="email" class="label desktop" id="email" name="email" placeholder="alexandra@gmail.com"  required>
+
+                <textarea class="text-area" id="subject" name="subject" placeholder="Write your message here"  maxlength="500" required ></textarea>
+                <button class="submit-btn2">Get it Touch</button>
+              </form>
+              <img src="./images/Shape.svg" class="img-form" id="image-form">
+            </div>
           </div>
-          <div class="contact-form">
-            <form class="action-form" action="https://formspree.io/f/{form_id}" method="post">
-              <input type="text" class="label" id="name" name="firstname" placeholder="Yeremias" maxlength="30" required>
-
-              <input type="email" class="label" id="email" name="email" placeholder="natajayanji4@gmail.com"  required>
-
-              <textarea class="text-area" id="subject" name="subject" placeholder="Write your message here"  maxlength="500" required ></textarea>
-              <button class="submit-btn2">Get it Touch</button>
-            </form>
-          <img src="./images/Shape.svg" class="img-form">
-        
-      </div>
-    </footer >
-  </section>
-
-
-
-</body>
-
+        </div>
+      </footer>
+    </section>
+  </body>
 </html>
