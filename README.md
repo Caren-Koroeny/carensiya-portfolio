@@ -58,7 +58,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Coming Soon...
+- [Live Demo](https://caren-koroeny.github.io/portfolio-template/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
