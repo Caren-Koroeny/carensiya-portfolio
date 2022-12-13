@@ -62,6 +62,7 @@ body {
 
   .desktop-nav-elements li a {
     text-decoration: none;
+    background-color: #ffffff;
   }
 
   .left {
@@ -119,6 +120,31 @@ body {
     align-items: center;
     letter-spacing: 0.37px;
     color: #091e42;
+    cursor: pointer;
+  
+  }
+  .intro-text{
+    width: 21.5ch;
+	  white-space: nowrap;
+	  overflow: hidden;
+	  border-right: 4px solid #212121;
+	  animation: cursor 1s step-start infinite, 
+    text 5s steps(18) alternate infinite;
+}
+
+@keyframes cursor {
+	0%, 100% { 
+    border-color: #dbd6d6; 
+  }
+}
+
+@keyframes text {
+	0% { 
+    width: 0; 
+  }
+	100% { 
+    width: 21.5ch; 
+  }
   }
 
   .text-description {
@@ -154,6 +180,15 @@ body {
     top: 12.53%;
     bottom: 87.08%;
     color: #505f79;
+    transition-duration: transform 1s;
+    outline: 2px;
+  }
+  .media-icons a{
+    text-decoration: none;
+  }
+  .media-icons li:hover{
+    transform: scale(2);
+
   }
 
   .container {
@@ -311,11 +346,11 @@ body {
     align-items: center;
     padding: 5px 12px;
     height: 24px;
-    background: #ebebff;
     border-radius: 8px;
     flex: none;
     flex-grow: 0;
     color: #6070ff;
+    background-color: #ebebff;
   }
 
   .image {
@@ -330,6 +365,14 @@ body {
     object-fit: cover;
     padding: 10px;
     margin-top: 5%;
+    transition: 1s ease;
+    cursor: pointer;
+  }
+.desktop-image1:hover{
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: 1s ease;
   }
 
   .desktop-image2 {
@@ -338,7 +381,15 @@ body {
     border-radius: 8px;
     object-fit: cover;
     padding: 20px;
+    cursor: pointer;
   }
+  .desktop-image2:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+    }
+  
 
   .project-description.desktop2.text {
     width: 450px;
@@ -352,7 +403,15 @@ body {
     padding: 30px;
     margin-left: -20px;
     margin-top: 5%;
+    cursor: pointer;
   }
+  .desktop-image3:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+    }
+  
 
   .submit-btn.desktop {
     background-color: #4053fc;
@@ -382,13 +441,9 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     border: 1px solid #396df2;
-    transform: translate(0.5s);
+    background-color: #fff;
+    
   }
-
-  .submit-btn:hover {
-    transition: 0.5s;
-  }
-
   .handcursor {
     width: 57px;
     height: 57px;
@@ -496,6 +551,10 @@ body {
     top: 12.53%;
     bottom: 87.08%;
     color: #505f79;
+    transition: tranform .1s;
+  }
+  .media-icons-about li:hover{
+    transform: scale(2);
   }
 
   .about-submit-btn {
@@ -522,7 +581,15 @@ body {
     padding: 20px;
     margin-top: 5%;
     margin-left: 7%;
+    cursor: pointer;
   }
+  .desktop-image4:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+    }
+  
 
   .lang {
     display: flex;
