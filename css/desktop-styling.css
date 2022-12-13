@@ -43,7 +43,6 @@ body {
 
   .left a {
     color: #6070ff;
-   
   }
 
   .right a {
@@ -63,7 +62,7 @@ body {
 
   .desktop-nav-elements li a {
     text-decoration: none;
-    background-color: #ffffff;
+    background-color: #fff;
   }
 
   .left {
@@ -122,30 +121,30 @@ body {
     letter-spacing: 0.37px;
     color: #091e42;
     cursor: pointer;
-  
-  }
-  .intro-text{
     width: 21.5ch;
-	  white-space: nowrap;
-	  overflow: hidden;
-	  border-right: 4px solid #212121;
-	  animation: cursor 1s step-start infinite, 
-    text 5s steps(18) alternate infinite;
-}
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid #212121;
+    animation:
+      cursor 1s step-start infinite,
+      text 5s steps(18) alternate infinite;
+  }
 
-@keyframes cursor {
-	0%, 100% { 
-    border-color: #dbd6d6; 
+  @keyframes cursor {
+    0%,
+    100% {
+      border-color: #dbd6d6;
+    }
   }
-}
 
-@keyframes text {
-	0% { 
-    width: 0; 
-  }
-	100% { 
-    width: 21.5ch; 
-  }
+  @keyframes text {
+    0% {
+      width: 0;
+    }
+
+    100% {
+      width: 21.5ch;
+    }
   }
 
   .text-description {
@@ -184,12 +183,13 @@ body {
     transition-duration: transform 1s;
     outline: 2px;
   }
-  .media-icons a{
+
+  .media-icons a {
     text-decoration: none;
   }
-  .media-icons li:hover{
-    transform: scale(2);
 
+  .media-icons li:hover {
+    transform: scale(2);
   }
   
   .container {
@@ -369,11 +369,12 @@ body {
     transition: 1s ease;
     cursor: pointer;
   }
-.desktop-image1:hover{
-  -webkit-transform: scale(0.8);
-  -ms-transform: scale(0.8);
-  transform: scale(0.8);
-  transition: 1s ease;
+
+  .desktop-image1:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
   }
 
   .desktop-image2 {
@@ -384,13 +385,13 @@ body {
     padding: 20px;
     cursor: pointer;
   }
-  .desktop-image2:hover{
+
+  .desktop-image2:hover {
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
     transform: scale(0.8);
     transition: 1s ease;
-    }
-  
+  }
 
   .project-description.desktop2.text {
     width: 450px;
@@ -406,13 +407,13 @@ body {
     margin-top: 5%;
     cursor: pointer;
   }
-  .desktop-image3:hover{
+
+  .desktop-image3:hover {
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
     transform: scale(0.8);
     transition: 1s ease;
-    }
-  
+  }
 
   .submit-btn.desktop {
     background-color: #4053fc;
@@ -443,8 +444,8 @@ body {
     letter-spacing: 0.03em;
     border: 1px solid #396df2;
     background-color: #fff;
-    
   }
+
   .handcursor {
     width: 57px;
     height: 57px;
@@ -552,9 +553,10 @@ body {
     top: 12.53%;
     bottom: 87.08%;
     color: #505f79;
-    transition: tranform .1s;
+    transition: tranform 0.1s;
   }
-  .media-icons-about li:hover{
+
+  .media-icons-about li:hover {
     transform: scale(2);
   }
 
@@ -584,13 +586,13 @@ body {
     margin-left: 7%;
     cursor: pointer;
   }
-  .desktop-image4:hover{
+
+  .desktop-image4:hover {
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
     transform: scale(0.8);
     transition: 1s ease;
-    }
-  
+  }
 
   .lang {
     display: flex;
