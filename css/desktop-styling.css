@@ -160,16 +160,18 @@ body {
   .social {
     padding: 15px 0;
   }
-  .social a{
+
+  .social a {
     text-decoration: none;
   }
+
   .connection {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #6070FF;
+    color: #6070ff;
   }
 
   .media-icons {
@@ -194,7 +196,7 @@ body {
   .media-icons li:hover {
     transform: scale(2);
   }
-  
+
   .container {
     margin-left: 3%;
     margin-top: 10%;
@@ -536,7 +538,8 @@ body {
     align-self: flex-start;
     margin-bottom: 5%;
   }
-  .social-about a{
+
+  .social-about a {
     text-decoration: none;
   }
 
@@ -548,7 +551,7 @@ body {
     line-height: 24px;
     color: #7f8cff;
   }
- 
+
   .media-icons-about {
     display: flex;
     list-style: none;
@@ -560,9 +563,9 @@ body {
     bottom: 87.08%;
     color: #505f79;
     transition: tranform 0.1s;
-
   }
-  .media-icons-about a{
+
+  .media-icons-about a {
     text-decoration: none;
     color: #505f79;
   }
