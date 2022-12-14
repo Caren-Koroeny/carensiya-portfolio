@@ -36,10 +36,6 @@
     display: none;
   }
 
-  .project-title.desktop {
-    display: none;
-  }
-
   .desktop-menu {
     display: none;
   }
@@ -72,10 +68,6 @@
   }
 
   .text-3.years {
-    display: none;
-  }
-
-  .label.desktop {
     display: none;
   }
 
@@ -204,6 +196,7 @@
   .social {
     align-self: flex-start;
     margin-bottom: 5%;
+    margin-left: 7%;
   }
 
   .connection {
@@ -324,7 +317,7 @@
   }
 
   .text-2 {
-    color: #7a869a;
+    color: #6b778c;
     height: 16px;
     font-family: 'Poppins', sans-serif;
     font-style: bold;
@@ -334,7 +327,7 @@
   }
 
   .text-3 {
-    color: #7a869a;
+    color: #6b778c;
     flex: 2;
     height: 16px;
     font-family: 'Poppins', sans-serif;
@@ -380,7 +373,7 @@
     text-align: center;
     font-weight: 500;
     font-size: 12px;
-    color: #6070ff;
+    color: #5e6fff;
     letter-spacing: 0.03em;
     line-height: 30px;
     margin-top: -2px;
@@ -675,7 +668,6 @@
     margin-bottom: 16px;
     border-radius: 10px;
     border: 1px solid #cfd8dc;
-    outline: none;
   }
 
   .text-area {
@@ -688,7 +680,6 @@
   }
 
   .label {
-    outline: none;
     width: 327px;
     height: 48px;
     border: 1px solid #cfd8dc;

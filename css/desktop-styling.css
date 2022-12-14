@@ -11,6 +11,10 @@ body {
   box-sizing: border-box;
 }
 
+.form-label {
+  display: none;
+}
+
 @media (min-width: 480px) {
   html,
   body {
@@ -60,8 +64,27 @@ body {
     font-style: bold;
   }
 
+  .social a {
+    text-decoration: none;
+  }
+
+  .media-icons a {
+    text-decoration: none;
+    color: #505f79;
+  }
+
+  .social-about a {
+    text-decoration: none;
+  }
+
+  .media-icons-about a {
+    text-decoration: none;
+    color: #505f79;
+  }
+
   .desktop-nav-elements li a {
     text-decoration: none;
+    background-color: #fff;
   }
 
   .left {
@@ -119,6 +142,30 @@ body {
     align-items: center;
     letter-spacing: 0.37px;
     color: #091e42;
+    cursor: pointer;
+    width: 21.5ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: cursor 0.5s step-start, text 0.2s steps(18);
+  }
+
+  @keyframes cursor {
+    0%,
+    100% {
+      border-color: #dbd6d6;
+    }
+  }
+
+  @keyframes text {
+    0% {
+      border-right: 2px solid #212121;
+      width: 0;
+    }
+
+    100% {
+      width: 21.5ch;
+      border: 0;
+    }
   }
 
   .text-description {
@@ -141,7 +188,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #7f8cff;
+    color: #6070ff;
   }
 
   .media-icons {
@@ -154,6 +201,25 @@ body {
     top: 12.53%;
     bottom: 87.08%;
     color: #505f79;
+    transition-duration: transform 1s;
+    outline: 2px;
+  }
+
+  .language-categories li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 12px;
+    height: 24px;
+    border-radius: 8px;
+    flex: none;
+    flex-grow: 0;
+    color: #6070ff;
+    background-color: #ebebff;
+  }
+
+  .media-icons li:hover {
+    transform: scale(2);
   }
 
   .container {
@@ -305,19 +371,6 @@ body {
     margin-top: 5px;
   }
 
-  .language-categories li {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 5px 12px;
-    height: 24px;
-    background: #ebebff;
-    border-radius: 8px;
-    flex: none;
-    flex-grow: 0;
-    color: #6070ff;
-  }
-
   .image {
     display: none;
   }
@@ -330,6 +383,15 @@ body {
     object-fit: cover;
     padding: 10px;
     margin-top: 5%;
+    transition: 1s ease;
+    cursor: pointer;
+  }
+
+  .desktop-image1:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
   }
 
   .desktop-image2 {
@@ -338,6 +400,14 @@ body {
     border-radius: 8px;
     object-fit: cover;
     padding: 20px;
+    cursor: pointer;
+  }
+
+  .desktop-image2:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
   }
 
   .project-description.desktop2.text {
@@ -352,6 +422,14 @@ body {
     padding: 30px;
     margin-left: -20px;
     margin-top: 5%;
+    cursor: pointer;
+  }
+
+  .desktop-image3:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
   }
 
   .submit-btn.desktop {
@@ -382,11 +460,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     border: 1px solid #396df2;
-    transform: translate(0.5s);
-  }
-
-  .submit-btn:hover {
-    transition: 0.5s;
+    background-color: #fff;
   }
 
   .handcursor {
@@ -496,6 +570,11 @@ body {
     top: 12.53%;
     bottom: 87.08%;
     color: #505f79;
+    transition: tranform 0.1s;
+  }
+
+  .media-icons-about li:hover {
+    transform: scale(2);
   }
 
   .about-submit-btn {
@@ -522,6 +601,14 @@ body {
     padding: 20px;
     margin-top: 5%;
     margin-left: 7%;
+    cursor: pointer;
+  }
+
+  .desktop-image4:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
   }
 
   .lang {
@@ -686,19 +773,7 @@ body {
     align-items: center;
   }
 
-  .label.first {
-    display: none;
-  }
-
-  .label.email {
-    display: none;
-  }
-
   .text-3.year {
-    display: none;
-  }
-
-  .project-title.mobile {
     display: none;
   }
 
@@ -719,7 +794,6 @@ body {
     margin-top: 14px;
     margin-bottom: 16px;
     border: 1px solid #cfd8dc;
-    outline: none;
   }
 
   .text-area {
@@ -733,7 +807,6 @@ body {
   }
 
   .label {
-    outline: none;
     width: 327px;
     height: 48px;
     border: 1px solid #cfd8dc;
