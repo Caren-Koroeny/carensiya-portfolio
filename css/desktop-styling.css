@@ -64,6 +64,24 @@ body {
     font-style: bold;
   }
 
+  .social a {
+    text-decoration: none;
+  }
+
+  .media-icons a {
+    text-decoration: none;
+    color: #505f79;
+  }
+
+  .social-about a {
+    text-decoration: none;
+  }
+
+  .media-icons-about a {
+    text-decoration: none;
+    color: #505f79;
+  }
+
   .desktop-nav-elements li a {
     text-decoration: none;
     background-color: #fff;
@@ -165,9 +183,7 @@ body {
     padding: 15px 0;
   }
 
-  .social a {
-    text-decoration: none;
-  }
+
 
   .connection {
     font-family: 'Poppins', sans-serif;
@@ -192,9 +208,17 @@ body {
     outline: 2px;
   }
 
-  .media-icons a {
-    text-decoration: none;
-    color: #505f79;
+  .language-categories li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 12px;
+    height: 24px;
+    border-radius: 8px;
+    flex: none;
+    flex-grow: 0;
+    color: #6070ff;
+    background-color: #ebebff;
   }
 
   .media-icons li:hover {
@@ -350,18 +374,7 @@ body {
     margin-top: 5px;
   }
 
-  .language-categories li {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 5px 12px;
-    height: 24px;
-    border-radius: 8px;
-    flex: none;
-    flex-grow: 0;
-    color: #6070FF;
-    background-color: #EBEBFF;
-  }
+
 
   .image {
     display: none;
@@ -543,10 +556,6 @@ body {
     margin-bottom: 5%;
   }
 
-  .social-about a {
-    text-decoration: none;
-  }
-
   .connection-about {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -567,11 +576,6 @@ body {
     bottom: 87.08%;
     color: #505f79;
     transition: tranform 0.1s;
-  }
-
-  .media-icons-about a {
-    text-decoration: none;
-    color: #505f79;
   }
 
   .media-icons-about li:hover {
