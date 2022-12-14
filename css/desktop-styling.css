@@ -359,8 +359,8 @@ body {
     border-radius: 8px;
     flex: none;
     flex-grow: 0;
-    color: #4a5cff;
-    background-color: #f6f5f4;
+    color: #6070FF;
+    background-color: #EBEBFF;
   }
 
   .image {
@@ -774,19 +774,7 @@ body {
     align-items: center;
   }
 
-  .label.first {
-    display: none;
-  }
-
-  .label.email {
-    display: none;
-  }
-
   .text-3.year {
-    display: none;
-  }
-
-  .project-title.mobile {
     display: none;
   }
 
@@ -807,7 +795,6 @@ body {
     margin-top: 14px;
     margin-bottom: 16px;
     border: 1px solid #cfd8dc;
-    outline: none;
   }
 
   .text-area {
@@ -821,7 +808,6 @@ body {
   }
 
   .label {
-    outline: none;
     width: 327px;
     height: 48px;
     border: 1px solid #cfd8dc;

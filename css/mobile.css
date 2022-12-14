@@ -36,10 +36,6 @@
     display: none;
   }
 
-  .project-title.desktop {
-    display: none;
-  }
-
   .desktop-menu {
     display: none;
   }
@@ -72,10 +68,6 @@
   }
 
   .text-3.years {
-    display: none;
-  }
-
-  .label.desktop {
     display: none;
   }
 
@@ -675,7 +667,6 @@
     margin-bottom: 16px;
     border-radius: 10px;
     border: 1px solid #cfd8dc;
-    outline: none;
   }
 
   .text-area {
@@ -688,7 +679,6 @@
   }
 
   .label {
-    outline: none;
     width: 327px;
     height: 48px;
     border: 1px solid #cfd8dc;
