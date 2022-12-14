@@ -146,10 +146,7 @@ body {
     width: 21.5ch;
     white-space: nowrap;
     overflow: hidden;
-    border-right: 4px solid #212121;
-    animation:
-      cursor 1s step-start infinite,
-      text 5s steps(18) alternate infinite;
+    animation: cursor 0.5s step-start, text 0.2s steps(18);
   }
 
   @keyframes cursor {
@@ -161,11 +158,13 @@ body {
 
   @keyframes text {
     0% {
+      border-right: 2px solid #212121;
       width: 0;
     }
 
     100% {
       width: 21.5ch;
+      border: 0px;
     }
   }
 
