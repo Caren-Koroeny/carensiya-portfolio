@@ -60,6 +60,10 @@
 
 - [Live Demo](https://caren-koroeny.github.io/portfolio-template/)
 
+## Loom Recording
+ 
+ -[Loom](https://www.loom.com/share/6cfcbdf5fc2c45aabca4bec89146a15c)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
