@@ -772,9 +772,11 @@ body {
     padding: 0 20px;
     align-items: center;
   }
-  .nav-items{
-  display: none;
-}
+
+  .nav-items {
+    display: none;
+  }
+
   .text-3.year {
     display: none;
   }
@@ -786,7 +788,8 @@ body {
   .project-description.mobile {
     display: none;
   }
-  .nav-sub{
+
+  .nav-sub {
     display: none;
   }
 
