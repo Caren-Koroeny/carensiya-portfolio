@@ -132,15 +132,27 @@
     display: block;
   }
 
+  .bar1,
+  .bar2,
+  .bar3 {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 5px auto;
+    background: #6070ff;
+    -webkit-transition: all 0.3s ease-in-out;
+  }
+
   .nav-sub {
-    position: absolute;
+    position: fixed;
+    display: flex;
+    overflow-x: hidden;
+    justify-content: space-between;
     top: 10vh;
     right: 0;
     width: 450px;
-    height: 40%;
+    height: 60%;
     align-items: center;
-    display: flex;
-    justify-content: space-between;
     flex-direction: column;
     background-color: rgb(231, 228, 228);
     border-radius: 0 0 0 20px;
@@ -155,17 +167,6 @@
 
   .nav-change {
     transform: translate(0%);
-  }
-
-  .bar1,
-  .bar2,
-  .bar3 {
-    display: block;
-    width: 30px;
-    height: 3px;
-    margin: 5px auto;
-    background: #6070ff;
-    -webkit-transition: all 0.3s ease-in-out;
   }
 
   .change .bar1 {
@@ -305,6 +306,10 @@
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
+
+    /* flex: none;
+    order: 0;
+    flex-grow: 0; */
     margin: 10px;
     max-width: 327px;
   }
@@ -381,7 +386,6 @@
   .project-description {
     color: #344563;
     font-weight: 400;
-    font-style: normal;
     line-height: 1.6rem;
     font-size: 16px;
     padding: 10px;
@@ -601,6 +605,7 @@
   }
 
   .display-skills {
+    border: 1px solid black;
     list-style: none;
   }
 
