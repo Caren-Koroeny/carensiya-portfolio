@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,16 +12,16 @@
 
 <body>
   <header>
-    <nav>
+    <nav class="navbar">
       <div class="desktop-menu">
-        <ul class="desktop-nav-elements">
+        <ul class="desktop-nav-elements nav-menu">
           <div class="left">
             <li class="left-nav-link"> <a href="#">My Logo</a></li>
           </div>
           <div class="right">
-            <li class="nav-links"> <a href="#portfolio">Portfolio</a></li>
-            <li class="nav-links"> <a href="#Aboutme">About</a></li>
-            <li class="nav-links"> <a href="#Contactme">Contact</a></li>
+            <li class="nav-item"> <a href="#portfolio" class="nav-link">Portfolio</a></li>
+            <li class="nav-item"> <a href="#Aboutme" class="nav-link">About</a></li>
+            <li class="nav-item"> <a href="#Contactme" class="nav-link">Contact</a></li>
           </div>
           
         </ul>
@@ -30,12 +29,20 @@
       <div class="logo-part">
         <li class="logo-text"><a href="#">My Logo</a></li>
       </div>
-      <ul class="hamburgur">
+      <div class="hamburgur">
+        <span class="bar1"></span>
+        <span class="bar2"></span>
+        <span class="bar3"></span>
+        <div>
 
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </ul>
+        <ul class="nav-sub">
+          <li class="list-item"> <a href="#portfolio" class="nav-link">Portfolio</a></li>
+            <li class="list-item"> <a href="#Aboutme" class="nav-link">About</a></li>
+            <li class="list-item"> <a href="#Contactme" class="nav-link">Contact</a></li>
+          </div>
+        </ul>
+      
+      
 
       </ul>
     </nav>
@@ -171,8 +178,6 @@
           <li class="text-3">2015</li>
           
         </ul>
-
-        
         <p class="project-description mobile2" >
           A daily selection of privately personalized reads; no accounts or sign-ups required.
         </p>
@@ -344,5 +349,6 @@
         </div>
       </footer>
     </section>
+    <script src="index.js"></script>
   </body>
 </html>
