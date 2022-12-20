@@ -3,6 +3,7 @@ const navsub = document.querySelector('.nav-sub');
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('change');
   navsub.classList.toggle('nav-change');
+  
 });
 
 document.querySelectorAll('.nav-link').forEach((n) => n
@@ -10,3 +11,5 @@ document.querySelectorAll('.nav-link').forEach((n) => n
     hamburger.classList.remove('change');
     navsub.classList.remove('nav-change');
   }));
+
+  
