@@ -61,7 +61,6 @@ body {
     font-weight: 500;
     padding: 10px;
     align-items: center;
-    font-style: bold;
   }
 
   .social a {
@@ -201,7 +200,7 @@ body {
     top: 12.53%;
     bottom: 87.08%;
     color: #505f79;
-    transition-duration: transform 1s;
+    transition: transform 1s;
     outline: 2px;
   }
 
@@ -436,7 +435,6 @@ body {
     background-color: #4053fc;
     color: #fff;
     padding: 10px;
-    transform: translate(05s);
   }
 
   .submit-btn.desktop:hover {
@@ -726,7 +724,6 @@ body {
   }
 
   .contact-title {
-    height: 100;
     align-items: center;
   }
 
@@ -773,6 +770,10 @@ body {
     align-items: center;
   }
 
+  .nav-items {
+    display: none;
+  }
+
   .text-3.year {
     display: none;
   }
@@ -782,6 +783,10 @@ body {
   }
 
   .project-description.mobile {
+    display: none;
+  }
+
+  .nav-sub {
     display: none;
   }
 
