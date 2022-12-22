@@ -12,7 +12,7 @@ function modalPopupFunc(){
 const data = {
     title1 : 'Tonic',
     badges: ["Canopy", "images/counter-images.png", "Back End Dev", 'images/counter-images.png', 2015],
-    backgroundImage1: "images/ModalPopup.svg",
+    backgroundImage1: ["images/ModalPopup.svg", ],
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
     icons: ['html', 'CSS', 'Bootstrap', 'Github','Rubby', 'JavaScript'],
     links: ['See live','images/seelive.png', 'Github', "images/github.png"],
@@ -33,15 +33,18 @@ data.badges.map((item, key) => {
 })
 
 const modallinks = document.querySelector(".link-button")
-data.links.map((item, key) => {
-    if(key%2 !== 0){
-        modallinks.innerHTML += `<img src="${item}">`
-    }else {
-        modallinks.innerHTML += `<button class="livebutton">${item}</button>`
-    }
-});
 
-
+modallinks.innerHTML += `
+    <button class="livebutton">
+        ${data.links[0]}
+        <img src="${data.links[1]}">
+    </button>
+    <button class="livebutton">
+        ${data.links[2]}
+        <img src="${data.links[3]}">
+    </button>
+`
+ 
 const header = document.querySelector(".title1tonic")
 header.innerHTML += data.title1
 
@@ -147,6 +150,5 @@ cardTwo.innerHTML += `
 
       <img src="${desktopCardData.desktopIimages[1]}" alt="multi-post stories project" class="desktop-image2">
     </div>
-
 
 `
