@@ -6,8 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CarenSiya's Portfolio</title>
-  <link rel="stylesheet" href="css/desktop-styling.css">
-  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="/assets/css/desktop-styling.css">
+  <link rel="stylesheet" href="/assets/css/mobile.css">
+  <link rel="stylesheet" href="/assets/css/modal.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" />
 
 </head>
@@ -111,12 +112,11 @@
           <li>css</li>
           <li>javascript</li>
         </ul>
-        <button class="submit-btn" type="submit">See Project</button>
+        <button class="submit-btn" type="submit" onclick="modalPopupFunc()">See Project</button>
       </div>
-
     </div>
 
-    </div>
+    
 
     <div class="card">
       
@@ -151,7 +151,7 @@
           <li>css</li>
           <li>javascript</li>
         </ul>
-        <button class="submit-btn" type="submit">See Project</button>
+        <button class="submit-btn modal-btn"  type="submit" onclick="modalPopupFunc()">See Project</button>
       </div>
 
       <img src="./images/desktop-image2.png" alt="multi-post stories project" class="desktop-image2">
@@ -201,8 +201,8 @@
         </ul>
           
           <div> 
-            <button class="submit-btn mobile" type="submit" >See Project</button>
-            <button class="submit-btn desktop" type="submit" >See Project</button>
+            <button class="submit-btn mobile modal-btn" type="submit" >See Project</button>
+            <button class="submit-btn desktop modal-btn" type="submit" >See Project</button>
             <div class="handcursor"><img src="./images/hand-cursor1.svg" alt="cursor hover"></div>
           </div>
     </div>
@@ -245,13 +245,40 @@
           <li>css</li>
           <li>javascript</li>
         </ul>
-        <button class="submit-btn" type="submit">See Project</button>
+        <button class="submit-btn modal-btn" type="submit" onclick="modalPopupFunc()">See Project</button>
       </div>
       <img src="./images/desktop-image4.png" alt="uber navigation project" class="desktop-image4">
     </div>
 
     </div>
-  </section>
+  </section> <div class="card">
+    <img src="./images/image-4.png" alt="uber navigation project" class="image">
+    <div class="left-card1-block four">
+      <h2 class="project-title desktop">Uber Navigation</h2>
+      
+      <ul class="project-badges">
+        <li class="text-1 dektop">Canopy</li>
+        <li class="text-1 desktop">Uber</li>
+        <img src="./images/counter-images.png" alt="" class="counter-image">
+        <li class="text-2 mobile">
+          Back&nbspEnd&nbspDev
+        </li>
+        <li class="text-2 desktop">
+          <p>Lead&nbspDeveloper</p>
+        </li>
+
+        <img src="./images/counter-images.png" alt="" class="counter-image">
+        <li class="text-3 year">2015</li>
+        <li class="text-3 years">2018</li>
+
+      </ul>
+
+      <p class="project-description mobile">
+        A daily selection of privately personalized reads; no accounts or sign-ups required.
+      </p>
+
+      <p class="project-description four">
+        A smart assistant to make dri
 
   <section class="container-about" id="Aboutme">
     <div class="cardabout-skill">
@@ -354,6 +381,23 @@
         </div>
       </footer>
     </section>
-    <script src="index.js"></script>
+
+  <div class="modall">
+    <div class="modal-bg">
+      <span class="close">X</span>
+      <div class="modal">
+        <h2 class="title1tonic"></h2>
+        <ul class="card1-badges"></ul>
+        <div class="image1modal"></div>
+        <div class="description-text">
+        <div class="modalsIcon"></div>
+        <div class="links"></div>
+      </div>
+    </div>
+  </div>
+
+    <script src="/assets/js/index.js"></script>
+    <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/new.js"></script>
   </body>
 </html>
