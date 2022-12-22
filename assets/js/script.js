@@ -91,7 +91,7 @@ cardOne.innerHTML += `
             ${desktopCardData.badges1[1]}
             </li>
             <img src="${desktopCardData.counterImg}" alt="" class="counter-image">
-            <li class="text-3">2015</li>
+            <li class="text-3">${desktopCardData.badges1[2]}</li>
         </ul>
 
         <p class="project-description">
@@ -107,3 +107,45 @@ cardOne.innerHTML += `
     </div>
 `
 
+const cardTwo = document.querySelector('.two');
+
+cardTwo.innerHTML += `
+
+<img src="${desktopCardData.desktopIimages[1]}" alt="Multi-Post Stories project" class="image">
+      <div class="left-card1-block two">
+          <h2 class="project-title desktop">${desktopCardData.cardTitle[1]}</h2>
+        <ul class="project-badges">
+          <li class="text-1 mobile2">Canopy</li>
+          <li class="text-1 desktop-facebook">FACEBOOK</li>
+          <img src="${desktopCardData.counterImg}" alt="" class="counter-image">
+          <li class="text-2 mobilebackend">
+            <p>${desktopCardData.badges1[1]}</p>
+          </li>
+          <li class="text-2 desktopfullstack">
+          ${desktopCardData.badges2[1]}
+          </li>
+          <img src="${desktopCardData.counterImg}" alt="" class="counter-image">
+          <li class="text-3">${desktopCardData.badges1[2]}</li>
+        </ul>
+
+        <p class="project-description mobile2">
+          A daily selection of privately personalized reads; no accounts or sign-ups required.
+        </p>
+        <p class="project-description desktop2 text">
+          Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.
+        </p>
+
+        <ul class="language-categories">
+            <li>${desktopCardData.languages[0]}</li>
+            <li id="rubby-desktop-1">${desktopCardData.languages[3]}</li>
+            <li>${desktopCardData.languages[1]}</li>
+            <li>${desktopCardData.languages[2]}</li>
+        </ul>
+        <button class="submit-btn modal-btn"  type="submit" onclick="modalPopupFunc()">See Project</button>
+      </div>
+
+      <img src="${desktopCardData.desktopIimages[1]}" alt="multi-post stories project" class="desktop-image2">
+    </div>
+
+
+`
