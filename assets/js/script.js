@@ -60,7 +60,50 @@ data.icons.forEach((icontem) => {
 })
 
 
+//Modal card one section
+const cardOne = document.querySelector('.one');
 
+const desktopCardData = {
+    desktopIimages: [
+      "/images/desktop-image1.png",  "/images/desktop-image2.png",
+      "/images/desktop-image3.png", "/images/desktop-image4.png",
+    ], 
+    counterImg: "/images/counter-images.png",
+    mobileImages: ["/images/image-1.png"],
+    cardTitle: ["Tonic", "Multi-Post Stories", "Facebook 360", "Uber Navigation"],
+    badges1: ["Canopy", "Back&nbspEnd&nbspDev", 2015],
+    badges2: ["FACEBOOK", "Full&nbspStack&nbspDev", 2015],
+    badges3: ["FACEBOOK", "Full&nbspStack&nbspDev", 2015],
+    badges4: ["Canopy", "Lead Developer", 2018],
+    languages: ["html", "css", "JavaScript", "Ruby on rails"], 
+}
 
+cardOne.innerHTML += `
+    <img src="${desktopCardData.mobileImages[0]}" class="image">
+    <img src="${desktopCardData.desktopIimages[0]}" alt="Tonic project" class="desktop-image1">
+    <div class="left-card1-block one">
+        <h2 class="project-title">${desktopCardData.cardTitle[0]}</h2>
+    
+        <ul class="project-badges">
+            <li class="text-1 ">Canopy</li>
+            <img src="${desktopCardData.counterImg}" alt="" class="counter-image">
+            <li class="text-2">
+            ${desktopCardData.badges1[1]}
+            </li>
+            <img src="${desktopCardData.counterImg}" alt="" class="counter-image">
+            <li class="text-3">2015</li>
+        </ul>
 
+        <p class="project-description">
+            A daily selection of privately personalized reads; no accounts or sign-ups required.
+        </p>
+        <br>
+        <ul class="language-categories">
+            <li>${desktopCardData.languages[0]}</li>
+            <li>${desktopCardData.languages[1]}</li>
+            <li>${desktopCardData.languages[2]}</li>
+        </ul>
+        <button class="submit-btn modal-btn" type="submit" onclick="modalPopupFunc()">See Project</button>
+    </div>
+`
 
