@@ -772,5 +772,14 @@
 
   form {
     margin-top: 2%;
+    cursor: pointer;
   }
+  .error-msg {
+    display: block;
+    color: white;
+    font-weight: bold;
+    background: rgba(155, 13, 13, 0.466);
+  }
+  
+
 }
