@@ -12,9 +12,9 @@ function modalPopupFunc(){
 const data = {
     title1 : 'Tonic',
     badges: ["Canopy", "images/counter-images.png", "Back End Dev", 'images/counter-images.png', 2015],
-    backgroundImage: "images/ModalPopup.svg",
+    backgroundImage1: "images/ModalPopup.svg",
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
-    icons: ['HTML', 'CSS', 'Bootstrap', 'Rubby', 'JavaScript'],
+    icons: ['html', 'CSS', 'Bootstrap', 'Github','Rubby', 'JavaScript'],
     links: ['See live','images/seelive.png', 'Github', "images/github.png"],
 }
 
@@ -23,7 +23,7 @@ const badgesContainer = document.querySelector('.card1-badges')
 data.badges.map((item, key) => {
     if (key%2 !== 0){
         badgesContainer.innerHTML += `
-        <img src="${item}">
+        <img src="${item}" class="modal-counter">
         `
     }else {
         badgesContainer.innerHTML += `
@@ -32,7 +32,7 @@ data.badges.map((item, key) => {
     }
 })
 
-const modallinks = document.querySelector(".links")
+const modallinks = document.querySelector(".link-button")
 data.links.map((item, key) => {
     if(key%2 !== 0){
         modallinks.innerHTML += `<img src="${item}">`
@@ -45,13 +45,14 @@ data.links.map((item, key) => {
 const header = document.querySelector(".title1tonic")
 header.innerHTML += data.title1
 
-const description1 = document.querySelector(".description-text")
+const description1 = document.querySelector(".text-para")
 description1.innerHTML += 
-`<p class="modal-description">${data.description}</p>`
-
+`
+<p class="modal-description">${data.description}</p>
+`
 const modalimage1 = document.querySelector(".image1modal")
 modalimage1.innerHTML = `
-<img src=${data.backgroundImage}>`
+<img src=${data.backgroundImage1} class="modal-bg1">`
 
 const modalIcon = document.querySelector('.modalsIcon')
 data.icons.forEach((icontem) => {
