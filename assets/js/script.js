@@ -76,15 +76,13 @@ data.mobileicons.forEach((mobitem) => {
 })
 
 //Modal card one section
-const cardOne = document.querySelector('.one');
-
 const desktopCardData = {
     desktopIimages: [
       "/images/desktop-image1.png",  "/images/desktop-image2.png",
       "/images/desktop-image3.png", "/images/desktop-image4.png",
     ], 
     counterImg: "/images/counter-images.png",
-    mobileImages: ["/images/image-1.png"],
+    mobileImages: ["/images/image-1.png","/images/image-3.png" ],
     cardTitle: ["Tonic", "Multi-Post Stories", "Facebook 360", "Uber Navigation"],
     badges1: ["Canopy", "Back&nbspEnd&nbspDev", 2015],
     badges2: ["FACEBOOK", "Full&nbspStack&nbspDev", 2015],
@@ -92,6 +90,9 @@ const desktopCardData = {
     badges4: ["Canopy", "Lead Developer", 2018],
     languages: ["html", "css", "JavaScript", "Ruby on rails"], 
 }
+
+
+const cardOne = document.querySelector('.one');
 
 cardOne.innerHTML += `
     <img src="${desktopCardData.mobileImages[0]}" class="image">
@@ -121,11 +122,8 @@ cardOne.innerHTML += `
         <button class="submit-btn modal-btn" type="submit" onclick="modalPopupFunc()">See Project</button>
     </div>
 `
-
 const cardTwo = document.querySelector('.two');
-
 cardTwo.innerHTML += `
-
 <img src="${desktopCardData.desktopIimages[1]}" alt="Multi-Post Stories project" class="image">
       <div class="left-card1-block two">
           <h2 class="project-title desktop">${desktopCardData.cardTitle[1]}</h2>
@@ -161,5 +159,57 @@ cardTwo.innerHTML += `
 
       <img src="${desktopCardData.desktopIimages[1]}" alt="multi-post stories project" class="desktop-image2">
     </div>
+`
+
+const cardThree = document.querySelector('.three');
+cardTwo.innerHTML += `
+<img src="./images/image-3.png" alt="Facebook 360 project" class="image">
+<img src="./images/desktop-image3.png" alt="Facebook 360 project" class="desktop-image3">
+<div class="left-card1-block three">
+  <h2 class="project-title">Facebook 360</h2>
+
+  <ul class="project-badges">
+    <li class="text-1 mobile">Canopy</li>
+    <li class="text-1 desktop">FACEBOOK</li>
+    <img src="./images/counter-images.png" alt="" class="counter-image">
+
+    <li class="text-2 mobile">
+      Back&nbspEnd&nbspDev
+    </li>
+
+    <li class="text-2 desktop">
+      Full&nbspStack&nbspDev
+    </li>
+    <img src="./images/counter-images.png" alt="" class="counter-image">
+    <li class="text-3">2015</li>
+    
+  </ul>
+
+  
+  <p class="project-description mobile2" >
+    A daily selection of privately personalized reads; no accounts or sign-ups required.
+  </p>
+
+  <p class="project-description desktop three">
+    Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.
+  </p>
+
+  <br>
+  <ul class="language-categories">
+   
+    <li>html</li>
+    <li id="rubby-desktop-2">Rubby on rails</li>
+    <li>css</li>
+    <li>javascript</li>
+  </ul>
+    
+    <div> 
+      <button class="submit-btn mobile modal-btn" type="submit" onclick="modalPopupFunc()" >See Project</button>
+      <button class="submit-btn desktop modal-btn" type="submit" onclick="modalPopupFunc()" >See Project</button>
+      <div class="handcursor"><img src="./images/hand-cursor1.svg" alt="cursor hover"></div>
+    </div>
+</div>
+
+
 
 `
