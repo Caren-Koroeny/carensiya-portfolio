@@ -40,7 +40,7 @@ const myDetails = document.getElementById('myform');
 const myname = document.getElementById('name');
 const email1 = document.getElementById('email');
 const message = document.getElementById('subject');
-const getLocalStorage = localStorage.getItem('userProvidedInfo');
+const fetchLocalStorage = localStorage.getItem('userProvidedInfo');
 
 // Load to each contact form fields if there is pre-saved local storage data.
 
