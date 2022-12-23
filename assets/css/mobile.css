@@ -474,11 +474,24 @@
     border: 1px solid #396df2;
     border-radius: 16px;
     margin: 4%;
+    transition: all 500ms linear;
+    cursor: pointer;
   }
 
   .submit-btn:hover {
-    color: #396df2;
-    transition: 0.5s;
+    color: #fff;
+    background: #6070ff;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  }
+
+  .submit-btn:active {
+    background: #2230d2;
+    color: #fff;
+  }
+
+  .submit-btn:disabled {
+    color: #5e6c84;
+    border: 1px solid #e5e5e5;
   }
 
   .container-about {
@@ -774,90 +787,90 @@
     margin-top: 2%;
   }
 
-
-.modal-bg {
-  background: #c1c7d0c9;
-  height: 100%;
-  width: 100vw;
-  position: fixed;
-  z-index: 7;
-  padding: 50px 0;
-  overflow: auto;
-  top: 0;
-  left: 0;
-  visibility: hidden;
-  backdrop-filter: blur(5px);
-}
-.bg-active{
-  visibility: visible;
-  opacity: 1;
-}
-
-.modal{
-  border: 1px solid black;
-  border: 1px solid #EBECF0;
-  background-color: white;
-  display: flex;
-  justify-content: space-around; 
-  align-items: center; 
-  flex-direction: column;
-  max-width: 88%;
-  margin-left: 20px;
-  border-radius: 16px;
-  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
-
-}
-.close{
-  top: 10px;
-  right: 10px;
-  font-weight: bold;
-  cursor: pointer;
-  font-size: 20px;
-  color: grey;
-  margin-right: -85%;
-}
-
-.title1tonic{
-  /* width: 1056px; */
-  height: 40px;
-  font-family: 'Poppins',sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  color: #091E42;
-  order: 0;
-  flex-grow: 0;
-  padding: 10px;
-  margin-left: -60%;
-  margin-top: -40px;
-}
-.card1-badges{
-  list-style-type: none;
-  display: flex;
-  gap:6px;
-  margin-left: -50px;
-  padding: 30px;
-}
-
-.modal-counter{
-  width: 12px;
-  height: 10px;
-  margin-top: 10px;
-}
-
-.image1modal{
-  
-  left: 0px;
-  top: 0px;
-
-  }
-  .modal-bg1{
-   display: none;
+  .modal-bg {
+    background: #c1c7d0c9;
+    height: 100%;
+    width: 100vw;
+    position: fixed;
+    z-index: 7;
+    padding: 50px 0;
+    overflow: auto;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    backdrop-filter: blur(5px);
   }
 
-  .modal-description{
-    font-family: 'Poppins',sans-serif;
+  .bg-active {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .modal {
+    border: 1px solid black;
+    border: 1px solid #ebecf0;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    max-width: 88%;
+    margin-left: 20px;
+    border-radius: 16px;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  }
+
+  .close {
+    top: 10px;
+    right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+    color: grey;
+    margin-right: -85%;
+  }
+
+  .title1tonic {
+    /* width: 1056px; */
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    order: 0;
+    flex-grow: 0;
+    padding: 10px;
+    margin-left: -60%;
+    margin-top: -40px;
+  }
+
+  .card1-badges {
+    list-style-type: none;
+    display: flex;
+    gap: 6px;
+    margin-left: -50px;
+    padding: 30px;
+  }
+
+  .modal-counter {
+    width: 12px;
+    height: 10px;
+    margin-top: 10px;
+  }
+
+  .image1modal {
+    left: 0;
+    top: 0;
+  }
+
+  .modal-bg1 {
+    display: none;
+  }
+
+  .modal-description {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -867,72 +880,71 @@
     order: 0;
     flex-grow: 0;
     padding: 30px;
-    }
-    .badges1{
-      list-style-type: none;
-    
-    }
-    .modalsIcon{
-      display: none;
-    }
+  }
 
-    .links-lang{
-      display: flex;
-      flex-direction: column;
-      margin-top: -20px;
-    }
-    
-    .mobileIcons {
-      list-style: none;
-      display: flex;
-      align-items: center;
-      margin-left: 20px;
-      gap: 15px;
+  .badges1 {
+    list-style-type: none;
+  }
 
-    }
+  .modalsIcon {
+    display: none;
+  }
 
-    .mobile-icons{
-      font-family: 'Poppins',sans-serif;
-      font-weight: 500;
-      padding: 4px 12px;
-      font-size: 10px;
-      line-height: 10px;
-      letter-spacing: 0.03em;
-      color: #6070FF;
-      display: flex;
-      height: 24px;
-      background: #EBEBFF;
-      border-radius: 8px;
-      order: 0;
-      flex-grow: 0;
-      }
+  .links-lang {
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+  }
 
-      .links{
-        height: 100px;
-      }
+  .mobileIcons {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    gap: 15px;
+  }
 
-      .link-button{
-        display: flex;
-        gap: 10px;
-        margin-top: 20px;
-        padding: 5px 20px;
-        
-      }
-      .livebutton{
-        font-family: 'Poppins',sans-serif;
-        border: 1px solid #DFE1E6;
-        border-radius: 16px;
-        font-weight: 500;
-        font-size: 10px;
-        width: 100px;
-        height: 30px;
-        padding: 10px;
-        line-height: 20px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        color: #6070FF;
-        gap: 20px;
-      }
-    
+  .mobile-icons {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding: 4px 12px;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    display: flex;
+    height: 24px;
+    background: #ebebff;
+    border-radius: 8px;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .links {
+    height: 100px;
+  }
+
+  .link-button {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 5px 20px;
+  }
+
+  .livebutton {
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    font-weight: 500;
+    font-size: 10px;
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #6070ff;
+    gap: 20px;
+  }
 }
