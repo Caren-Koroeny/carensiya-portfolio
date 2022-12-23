@@ -18,7 +18,7 @@ const errorMessage = (message) => {
 const email = document.getElementById('email');
 const nameInput = document.getElementById('name');
 const text = document.getElementById('text');
-document.querySelector('submit-btn2').addEventListener('click', () => {
+document.querySelector('#submit').addEventListener('click', () => {
   // if the email field is valid, we let the form submit
   if (email.validity.typeMismatch) {
     errorMessage('Invalid Email: Enter a valid email address');
@@ -32,6 +32,6 @@ document.querySelector('submit-btn2').addEventListener('click', () => {
     errorMessage('Invalid Message: Message is required');
   } else {
     // submit form
-    document.getElementsByClassName('contact-form').submit-btn2();
+    document.getElementById('contact-form').submit();
   }
 });
