@@ -241,9 +241,6 @@ cardFour.innerHTML += `
 
 `;
 
-
-
-
 const modalPopupFunc = () => {
   const modalBg = document.querySelector('.modal-bg');
   const modalClose = document.querySelector('.close');
