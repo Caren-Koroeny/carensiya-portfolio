@@ -44,8 +44,8 @@ const getLocalStorage = localStorage.getItem('userProvidedInfo');
 
 // Load to each contact form fields if there is pre-saved local storage data.
 
-if (getLocalStorage) {
-  const dataSave = JSON.parse(getLocalStorage);
+if (fetchLocalStorage) {
+  const dataSave = JSON.parse(fetchLocalStorage);
   myname.value = dataSave.name;
   email1.value = dataSave.email;
   message.value = dataSave.subject;
