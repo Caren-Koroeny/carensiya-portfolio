@@ -17,7 +17,7 @@ const errorMessage = (message) => {
   // contact form validation
 const email = document.getElementById('email');
 const nameInput = document.getElementById('name');
-const text = document.getElementById('text');
+const text = document.getElementById('subject');
 document.querySelector('#submit').addEventListener('click', () => {
   // if the email field is valid, we let the form submit
   if (email.validity.typeMismatch) {
@@ -28,11 +28,11 @@ document.querySelector('#submit').addEventListener('click', () => {
     errorMessage('Invalid Name: Name is required');
   } else if (!email.validity.valid) {
     errorMessage('Invalid Email: Email is required');
-  } else if (!text.validity.valid) {
+  } else if (!subject.validity.valid) {
     errorMessage('Invalid Message: Message is required');
   } else {
     // submit form
-    document.getElementById('contact-form').submit();
+    document.getElementById('myform').submit();
   }
 });
 
@@ -48,7 +48,7 @@ if (getLocalStorage) {
   const dataSave = JSON.parse(getLocalStorage);
   myname.value = dataSave.name;
   email1.value = dataSave.email;
-  subject.value = dataSave.message;
+  message.value = dataSave.subject;
 }
 
 document.querySelectorAll("input, textarea").forEach((input) => {
@@ -62,7 +62,7 @@ document.querySelectorAll("input, textarea").forEach((input) => {
     // Store values in object;
     const infoProvided = {
       name: nameData,
-      email1: emailData,
+      email: emailData,
       subject: msgData,
     };
 
