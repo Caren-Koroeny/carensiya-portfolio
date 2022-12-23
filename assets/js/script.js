@@ -162,7 +162,7 @@ cardTwo.innerHTML += `
 `
 
 const cardThree = document.querySelector('.three');
-cardTwo.innerHTML += `
+cardThree.innerHTML += `
 <img src="./images/image-3.png" alt="Facebook 360 project" class="image">
 <img src="./images/desktop-image3.png" alt="Facebook 360 project" class="desktop-image3">
 <div class="left-card1-block three">
@@ -210,6 +210,48 @@ cardTwo.innerHTML += `
     </div>
 </div>
 
+`
 
+const cardFour = document.querySelector('.four');
+
+cardFour.innerHTML += `
+  <img src="./images/image-4.png" alt="uber navigation project" class="image">
+  <div class="left-card1-block four">
+    <h2 class="project-title desktop">Uber Navigation</h2>
+    
+    <ul class="project-badges">
+      <li class="text-1 dektop">Canopy</li>
+      <li class="text-1 desktop">Uber</li>
+      <img src="./images/counter-images.png" alt="" class="counter-image">
+      <li class="text-2 mobile">
+        Back&nbspEnd&nbspDev
+      </li>
+      <li class="text-2 desktop">
+        <p>Lead&nbspDeveloper</p>
+      </li>
+
+      <img src="./images/counter-images.png" alt="" class="counter-image">
+      <li class="text-3 year">2015</li>
+      <li class="text-3 years">2018</li>
+
+    </ul>
+
+    <p class="project-description mobile">
+      A daily selection of privately personalized reads; no accounts or sign-ups required.
+    </p>
+
+    <p class="project-description four">
+      A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.
+    </p>
+    <br>
+    <ul class="language-categories">
+      <li>html</li>
+      <li id="rubby-desktop-3">Rubby on rails</li>
+      <li>css</li>
+      <li>javascript</li>
+    </ul>
+    <button class="submit-btn modal-btn" type="submit" onclick="modalPopupFunc()">See Project</button>
+  </div>
+  <img src="./images/desktop-image4.png" alt="uber navigation project" class="desktop-image4">
 
 `
