@@ -256,3 +256,5 @@ modalsButton.forEach((item) => {
     modalPopupFunc();
   });
 });
+
+// local storage section
