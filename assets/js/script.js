@@ -82,7 +82,7 @@ const desktopCardData = {
       "/images/desktop-image3.png", "/images/desktop-image4.png",
     ], 
     counterImg: "/images/counter-images.png",
-    mobileImages: ["/images/image-1.png","/images/image-3.png" ],
+    mobileImages: ["/images/image-1.png","/images/image-3.png" ,'/images/image-4.png'],
     cardTitle: ["Tonic", "Multi-Post Stories", "Facebook 360", "Uber Navigation"],
     badges1: ["Canopy", "Back&nbspEnd&nbspDev", 2015],
     badges2: ["FACEBOOK", "Full&nbspStack&nbspDev", 2015],
@@ -163,25 +163,25 @@ cardTwo.innerHTML += `
 
 const cardThree = document.querySelector('.three');
 cardThree.innerHTML += `
-<img src="./images/image-3.png" alt="Facebook 360 project" class="image">
-<img src="./images/desktop-image3.png" alt="Facebook 360 project" class="desktop-image3">
+<img src="${desktopCardData.mobileImages[1]}" alt="Facebook 360 project" class="image">
+<img src="${desktopCardData.desktopIimages[2]}" alt="Facebook 360 project" class="desktop-image3">
 <div class="left-card1-block three">
-  <h2 class="project-title">Facebook 360</h2>
+  <h2 class="project-title">${desktopCardData.cardTitle[2]}</h2>
 
   <ul class="project-badges">
-    <li class="text-1 mobile">Canopy</li>
-    <li class="text-1 desktop">FACEBOOK</li>
-    <img src="./images/counter-images.png" alt="" class="counter-image">
+    <li class="text-1 mobile">${desktopCardData.badges1[0]}</li>
+    <li class="text-1 desktop">${desktopCardData.badges3[0]}</li>
+    <img src="${desktopCardData.counterImg}" alt="" class="counter-image">
 
     <li class="text-2 mobile">
-      Back&nbspEnd&nbspDev
+      ${desktopCardData.badges1[1]}
     </li>
 
     <li class="text-2 desktop">
-      Full&nbspStack&nbspDev
+    ${desktopCardData.badges2[1]}
     </li>
-    <img src="./images/counter-images.png" alt="" class="counter-image">
-    <li class="text-3">2015</li>
+    <img src="${desktopCardData.counterImg}" alt="" class="counter-image">
+    <li class="text-3">${desktopCardData.badges1[2]}</li>
     
   </ul>
 
@@ -197,10 +197,10 @@ cardThree.innerHTML += `
   <br>
   <ul class="language-categories">
    
-    <li>html</li>
-    <li id="rubby-desktop-2">Rubby on rails</li>
-    <li>css</li>
-    <li>javascript</li>
+  <li>${desktopCardData.languages[0]}</li>
+  <li id="rubby-desktop-1">${desktopCardData.languages[3]}</li>
+  <li>${desktopCardData.languages[1]}</li>
+  <li>${desktopCardData.languages[2]}</li>
   </ul>
     
     <div> 
@@ -215,43 +215,45 @@ cardThree.innerHTML += `
 const cardFour = document.querySelector('.four');
 
 cardFour.innerHTML += `
-  <img src="./images/image-4.png" alt="uber navigation project" class="image">
-  <div class="left-card1-block four">
-    <h2 class="project-title desktop">Uber Navigation</h2>
-    
-    <ul class="project-badges">
-      <li class="text-1 dektop">Canopy</li>
-      <li class="text-1 desktop">Uber</li>
-      <img src="./images/counter-images.png" alt="" class="counter-image">
-      <li class="text-2 mobile">
-        Back&nbspEnd&nbspDev
-      </li>
-      <li class="text-2 desktop">
-        <p>Lead&nbspDeveloper</p>
-      </li>
+    <img src="${desktopCardData.mobileImages[2]}" alt="uber navigation project" class="image">
+      <div class="left-card1-block four">
+        <h2 class="project-title desktop">${desktopCardData.cardTitle[3]}</h2>
+        
+        <ul class="project-badges">
+          <li class="text-1 dektop">${desktopCardData.badges1[0]}</li>
+          <li class="text-1 desktop">Uber</li>
+          <img src="${desktopCardData.counterImg}" alt="" class="counter-image">
+          <li class="text-2 mobile">
+            ${desktopCardData.badges1[1]}
+          </li>
+          <li class="text-2 desktop">
+            <p>${desktopCardData.badges4[1]}</p>
+          </li>
 
-      <img src="./images/counter-images.png" alt="" class="counter-image">
-      <li class="text-3 year">2015</li>
-      <li class="text-3 years">2018</li>
+          <img src=".${desktopCardData.counterImg}" alt="" class="counter-image">
+          <li class="text-3 year">${desktopCardData.badges1[2]}</li>
+          <li class="text-3 years">${desktopCardData.badges4[2]}</li>
 
-    </ul>
+        </ul>
 
-    <p class="project-description mobile">
-      A daily selection of privately personalized reads; no accounts or sign-ups required.
-    </p>
+        <p class="project-description mobile">
+          A daily selection of privately personalized reads; no accounts or sign-ups required.
+        </p>
 
-    <p class="project-description four">
-      A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.
-    </p>
-    <br>
-    <ul class="language-categories">
-      <li>html</li>
-      <li id="rubby-desktop-3">Rubby on rails</li>
-      <li>css</li>
-      <li>javascript</li>
-    </ul>
-    <button class="submit-btn modal-btn" type="submit" onclick="modalPopupFunc()">See Project</button>
-  </div>
-  <img src="./images/desktop-image4.png" alt="uber navigation project" class="desktop-image4">
+        <p class="project-description four">
+          A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.
+        </p>
+        <br>
+        <ul class="language-categories">
+          <li>${desktopCardData.languages[0]}</li>
+          <li id="rubby-desktop-3">${desktopCardData.languages[3]}</li>
+          <li>${desktopCardData.languages[1]}</li>
+          <li>${desktopCardData.languages[2]}</li>
+        </ul>
+        
+        <button class="submit-btn modal-btn" type="submit" onclick="modalPopupFunc()">See Project</button>
+      </div>
+      <img src="${desktopCardData.desktopIimages[3]}" alt="uber navigation project" class="desktop-image4">
+    </div>
 
 `
