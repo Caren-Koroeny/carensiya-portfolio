@@ -12,9 +12,10 @@ function modalPopupFunc(){
 const data = {
     title1 : 'Tonic',
     badges: ["Canopy", "images/counter-images.png", "Back End Dev", 'images/counter-images.png', 2015],
-    backgroundImage1: ["images/ModalPopup.svg", ],
+    backgroundImage1: ["images/ModalPopup.svg","images/mobile-snapshot.png" ],
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
     icons: ['html', 'CSS', 'Bootstrap', 'Github','Rubby', 'JavaScript'],
+    mobileicons: ['html', 'css', 'javascript'],
     links: ['See live','images/seelive.png', 'Github', "images/github.png"],
 }
 
@@ -55,7 +56,12 @@ description1.innerHTML +=
 `
 const modalimage1 = document.querySelector(".image1modal")
 modalimage1.innerHTML = `
-<img src=${data.backgroundImage1} class="modal-bg1">`
+<img src=${data.backgroundImage1[0]} class="modal-bg1">`
+
+const mobileimage1 = document.querySelector(".mobileimage")
+mobileimage1.innerHTML = `
+<img src=${data.backgroundImage1[1]} class="modal-bg2">`
+
 
 const modalIcon = document.querySelector('.modalsIcon')
 data.icons.forEach((icontem) => {
@@ -63,6 +69,11 @@ data.icons.forEach((icontem) => {
     <li class="modal-icons">${icontem}</li>`;
 })
 
+const mobile = document.querySelector('.mobileIcons')
+data.mobileicons.forEach((mobitem) => {
+    mobile.innerHTML += `
+    <li class="mobile-icons">${mobitem}</li>`;
+})
 
 //Modal card one section
 const cardOne = document.querySelector('.one');

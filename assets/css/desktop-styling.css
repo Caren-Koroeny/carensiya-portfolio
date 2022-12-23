@@ -1025,7 +1025,7 @@ margin-left: -63%;
 
 .modal-description{
 width: 90%;
-font-family: 'Poppins';
+font-family: 'Poppins',sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -1035,8 +1035,6 @@ flex: none;
 order: 0;
 flex-grow: 0;
 padding-top: 30px;
-
-
 }
 
 .links-lang{
@@ -1047,7 +1045,8 @@ padding-top: 30px;
 .modalsIcon {
   list-style: none;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  padding-top: 13px;
   align-items: center;
   flex-wrap: wrap;
   width: 300px;
@@ -1089,6 +1088,13 @@ flex-grow: 0;
   text-align: center;
   color: #6070FF;
   gap: 20px;
+}
+
+.modal-bg2{
+  display: none;
+}
+.mobileIcons{
+  display: none;
 }
   
 }
