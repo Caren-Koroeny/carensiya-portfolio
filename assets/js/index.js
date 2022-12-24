@@ -17,7 +17,7 @@ const errorMessage = (message) => {
   // contact form validation
 const email = document.getElementById('email');
 const nameInput = document.getElementById('name');
-const text = document.getElementById('text');
+const text = document.getElementById('subject');
 document.querySelector('#submit').addEventListener('click', () => {
   // if the email field is valid, we let the form submit
   if (email.validity.typeMismatch) {
@@ -32,6 +32,45 @@ document.querySelector('#submit').addEventListener('click', () => {
     errorMessage('Invalid Message: Message is required');
   } else {
     // submit form
-    document.getElementById('contact-form').submit();
+    document.getElementById('myform').submit();
   }
+});
+
+const myDetails = document.getElementById('myform');
+const myname = document.getElementById('name');
+const email1 = document.getElementById('email');
+const message = document.getElementById('subject');
+const fetchLocalStorage = localStorage.getItem('userProvidedInfo');
+
+// Load to each contact form fields if there is pre-saved local storage data.
+
+if (fetchLocalStorage) {
+  const dataSave = JSON.parse(fetchLocalStorage);
+  myname.value = dataSave.name;
+  email1.value = dataSave.email;
+  message.value = dataSave.subject;
+}
+
+document.querySelectorAll('input, textarea').forEach((input) => {
+  input.addEventListener('input', (event) => {
+    event.preventDefault();
+    // Calling input values
+    const nameData = document.querySelector('#name').value;
+    const emailData = document.querySelector('#email').value;
+    const msgData = document.querySelector('#subject').value;
+
+    // Store values in object;
+    const infoProvided = {
+      name: nameData,
+      email: emailData,
+      subject: msgData,
+    };
+
+    localStorage.setItem('userProvidedInfo', JSON.stringify(infoProvided));
+  });
+});
+
+// make the form staying to the current load, for visualization or testing purpose
+myDetails.addEventListener('submit', (e) => {
+  e.preventDefault();
 });
