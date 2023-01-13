@@ -132,7 +132,7 @@ If you like this project click a ⭐️
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank ALX 
+I would like to thank [Microverse Tutorials](https://github.com/microverseinc/curriculum-transversal-skills/blob/main/documentation/hello_microverse_project)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
