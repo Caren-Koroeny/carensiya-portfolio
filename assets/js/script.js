@@ -66,7 +66,7 @@ const desktopCardData = {
     'images/desktop-image3.png', 'images/desktop-image4.png',
   ],
   counterImg: '/images/counter-images.png',
-  mobileImages: ['/images/image-1.png', '/images/image-3.png', '/images/image-4.png'],
+  mobileImages: ['images/image-1.png', 'images/image-3.png', 'images/image-4.png'],
   cardTitle: ['Tonic', 'Multi-Post Stories', 'Facebook 360', 'Uber Navigation'],
   badges1: ['Canopy', 'Back&nbspEnd&nbspDev', 2015],
   badges2: ['FACEBOOK', 'Full&nbspStack&nbspDev', 2015],
