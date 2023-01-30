@@ -62,8 +62,8 @@ data.mobileicons.forEach((mobitem) => {
 // Modal card one section
 const desktopCardData = {
   desktopIimages: [
-    '/images/desktop-image1.png', '/images/desktop-image2.png',
-    '/images/desktop-image3.png', '/images/desktop-image4.png',
+    'images/desktop-image1.png', 'images/desktop-image2.png',
+    'images/desktop-image3.png', 'images/desktop-image4.png',
   ],
   counterImg: '/images/counter-images.png',
   mobileImages: ['/images/image-1.png', '/images/image-3.png', '/images/image-4.png'],
