@@ -220,7 +220,7 @@
   }
 
   .background {
-    background: url(/images/header-shapes-mobile.png);
+    background: url(images/header-shapes-mobile.png);
     max-width: 375px;
     background-repeat: no-repeat;
     object-fit: cover;
