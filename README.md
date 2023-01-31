@@ -58,7 +58,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo](https://caren-koroeny.github.io/portfolio-template/)
+- [Live Demo](https://caren-koroeny.github.io/carensiya-portfolio/)
 
 ## Loom Recording
  
