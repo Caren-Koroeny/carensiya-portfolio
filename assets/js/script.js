@@ -21,14 +21,21 @@ badgesContainer.innerHTML += `
 const modallinks = document.querySelector('.link-button');
 
 modallinks.innerHTML += `
+    <a href="https://caren-koroeny.github.io/hiddekel-global-summit/">
     <button class="livebutton">
-        ${data.links[0]}
-        <img src="${data.links[1]}">
-    </button>
+    ${data.links[0]}
+    <img src="${data.links[1]}">
+</button></a>
+
+    <a href="https://github.com/Caren-Koroeny/hiddekel-global-summit">
     <button class="livebutton">
-        ${data.links[2]}
-        <img src="${data.links[3]}">
-    </button>
+    ${data.links[2]}
+    <img src="${data.links[3]}">
+</button> </a>
+    
+
+   
+  
 `;
 
 const header = document.querySelector('.title1tonic');
