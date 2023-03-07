@@ -997,6 +997,10 @@ body {
     border-radius: 8px;
     margin-left: -63%;
   }
+  .modal-bg1{
+    width: 1100px;
+    height: 586px;
+  }
 
   .description-text {
     display: flex;
