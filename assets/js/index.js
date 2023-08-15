@@ -165,9 +165,8 @@ const projectData = [
     liveLink: 'https://github.com/Caren-Koroeny/leader-board',
     sourceLink: 'https://github.com/Caren-Koroeny/leader-board',
   },
-]; // End of portfolio data
+]; 
 
-// Fetch single project from projectData
 function fetchOnePoject(id) {
   const projects = projectData;
 
