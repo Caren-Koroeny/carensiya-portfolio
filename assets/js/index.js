@@ -165,7 +165,7 @@ const projectData = [
     liveLink: 'https://github.com/Caren-Koroeny/leader-board',
     sourceLink: 'https://github.com/Caren-Koroeny/leader-board',
   },
-]; 
+];
 
 function fetchOnePoject(id) {
   const projects = projectData;
