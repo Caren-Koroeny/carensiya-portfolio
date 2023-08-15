@@ -118,10 +118,10 @@ const projectData = [
       'https://user-images.githubusercontent.com/55842414/253625244-eccd34dc-e017-4b0e-b89a-f75419b3156f.png',
     projectDetails:
       'This is a budget app where you can setup your different budgets and you can create different categories and also delete your own categories and also create new transactions and also delete your own transactions.',
-    
-      liveLink: ' https://siya.onrender.com/products',
-      sourceLink: 'https://github.com/Caren-Koroeny/BudgetApp',
-   
+
+    liveLink: ' https://siya.onrender.com/products',
+    sourceLink: 'https://github.com/Caren-Koroeny/BudgetApp',
+
   },
   {
     id: 'project7',
