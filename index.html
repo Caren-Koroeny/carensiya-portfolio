@@ -1,238 +1,299 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/css/desktop-styling.css" />
+    <title>CarenSiya</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CarenSiya's Portfolio</title>
-  <link rel="stylesheet" href="./assets/css/modal.css">
-  <link rel="stylesheet" href="./assets/css/desktop-styling.css">
-  <link rel="stylesheet" href="./assets/css/mobile.css">
-  <link rel="stylesheet" href="./assets/css/modal.css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" />
-
-</head>
-
-<body>
-  <header>
-    <nav>
-      <div class="desktop-menu">
-        <ul class="desktop-nav-elements">
-          <div class="left">
-            <li class="left-nav-link"> <a href="#">My Logo</a></li>
+  <body>
+    <div class="root_container">
+      <header class="header">
+        <nav class="header_nav">
+          <div class="header_logo blue">
+            <a class="blue" href="#">Carensiya's Portfolio</a>
           </div>
-          <div class="right">
-            <li class="nav-links"> <a href="#portfolio">Portfolio</a></li>
-            <li class="nav-links"> <a href="#Aboutme">About</a></li>
-            <li class="nav-links"> <a href="#Contactme">Contact</a></li>
+          <div class="header_menu">
+            <img class="menu_icon" src="./images/menu-icon.svg" alt="menu" />
           </div>
-          
-        </ul>
-      </div>
-      <div class="logo-part">
-        <li class="logo-text"><a href="#">My Logo</a></li>
-    </ul>
-    
-    
+          <ul class="nav_items">
+            <li class="nav_item">
+              <a class="nav_item_action" href="#projects">Projects</a>
+            </li>
+            <li class="nav_item">
+              <a class="nav_item_action" href="#about">About</a>
+            </li>
+            <li class="nav_item">
+              <a class="nav_item_action" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <ul class="mobile_nav_items">
+            <span class="toggle-cross"
+              ><img src="./images/cross-icon-white.png" alt="X"
+            /></span>
+            <li class="nav_item">
+              <a id="m_nav" class="nav_item_action" href="#portfolio"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav_item">
+              <a id="m_nav" class="nav_item_action" href="#about">About</a>
+            </li>
+            <li class="nav_item">
+              <a id="m_nav" class="nav_item_action" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <!-- Main Container -->
+      <main class="main_container">
+        <!-- Headline section -->
+        <section class="headline">
+          <div class="headline_container">
+            <h1 class="headline_title type-animation"></h1>
+            <p class="headline_content">
+              Greetings! I am a passionate software developer who takes great
+              delight in crafting innovative solutions that bring your ideas to
+              life. Whether it's an impressive product, a cutting-edge feature,
+              or a captivating website, I'm here to assist you every step of the
+              way. My diverse portfolio showcases a range of successful projects
+              and vast experience. Each project reflects my commitment to
+              excellence and my passion for creating impactful digital
+              solutions. If you find yourself drawn to my work and have a coding
+              project that requires finesse, please do not hesitate to reach
+              out. Together, let's turn your visions into reality! I'm excited
+              to collaborate and create meaningful solutions that leave a
+              lasting impact.
+            </p>
+            <div class="headline_social">
+              <h3 class="social_title blue">LET’S CONNECT</h3>
+              <ul class="social_links">
+                <li class="social_link">
+                  <a rel="noopener" target="_blank" href="https://twitter.com/home"
+                    ><img
+                      class="social_icon"
+                      src="./images/twitter.svg"
+                      alt="Twitter"
+                  /></a>
+                </li>
+                <li class="social_link">
+                  <a rel="noopener"
+                    target="_blank"
+                    href="https://www.linkedin.com/in/caren-siya-a89712180/"
+                    ><img
+                      class="social_icon"
+                      src="./images/linkedin-icon.svg"
+                      alt="Linkedin"
+                  /></a>
+                </li>
+                <li class="social_link">
+                  <a rel="noopener" target="_blank" href="https://github.com/Caren-Koroeny"
+                    ><img
+                      class="social_icon"
+                      src="./images/github.png"
+                      alt="Github"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
 
-      <div>
-      <ul class="nav-sub">
-        <li class="list-item"> <a href="#portfolio" class="nav-link port">Portfolio</a></li>
-          <li class="list-item"> <a href="#Aboutme" class="nav-link about">About</a></li>
-          <li class="list-item"> <a href="#Contactme" class="nav-link cont">Contact</a></li>
-      </ul>
-      </div> 
+        <!-- Work section -->
+        <section class="work" id="projects"></section>
+        <!-- end of work section-->
 
-      <div class="hamburgur">
-        <span class="bar1"></span>
-        <span class="bar2"></span>
-        <span class="bar3"></span>
-        </div> 
-       
-    </nav>
-  </header>
-
-  <section class="main" id="portfolio">
-    <div class="background">
-      <div class="wrapper">
-        <div class="intro-text">
-          <h1>
-            I'm CarenSiya
-            <br>
-            Glad to see you!
-          </h1>
-          <p></p>
-        </div>
-        <div class="main-text">
-          <p class="text-description">
-            I’m a software developer! I can help you build a product , feature or website Look through some of my work
-            and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
-          </p>
-        </div>
-
-          <div class="social">
-            <a href="#" class="connection">LET'S CONNECT</a> 
-            <ul class="media-icons">
-              <li><a href="#"><i class="fa-brands fa-twitter"></i></a>  </li>
-              <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-m"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-github"></i></a> </li>
-              <li><a href="#"> <i class="fa-solid fa-hand-peace"></i></a></li>
+        <section class="about" id="about">
+          <div class="about-myself">
+            <h2 class="headline_title">About Myself</h2>
+            <p class="about_details">
+              As a passionate software developer, I have the skills to bring
+              your visions to life! Whether it's crafting innovative products,
+              designing enticing features, or building captivating websites, I
+              am here to assist you every step of the way.
+              <span class="space"></span>
+              My focus is on creating remarkable solutions with a dedication to
+              delivering high-quality code and user-centric experiences. I
+              specialize in front-end and back-end development, database
+              management, and UI/UX design.
+              <span class="space"></span>
+              My portfolio showcases a collection of projects that demonstrate
+              the depth of my expertise and experiences. Each project represents
+              my commitment to excellence and my passion for creating impactful
+              digital experiences.
+              <span class="space"></span>
+              If my work resonates with you and you have a coding project in
+              mind, I wholeheartedly encourage you to get in touch. Let's
+              collaborate and turn your ideas into remarkable realities!
+              Together, we can create meaningful solutions that leave a lasting
+              impression on your audience.
+              <span class="space"></span>
+              Thank you for visiting my portfolio. I look forward to connecting
+              with you and making your projects a resounding success!
+              <span class="space"></span>
+            </p>
+            <h3 class="social_title blue">LET&#39;S CONNECT</h3>
+            <ul class="social_links">
+              <li class="social_link">
+                <a rel="noopener" target="_blank" href="https://twitter.com/home"
+                    ><img
+                      class="social_icon"
+                      src="./images/twitter.svg"
+                      alt="Twitter"
+                  /></a>
+                </li>
+                <li class="social_link">
+                  <a rel="noopener"
+                    target="_blank"
+                    href="https://www.linkedin.com/in/caren-siya-a89712180/"
+                    ><img
+                      class="social_icon"
+                      src="./images/linkedin-icon.svg"
+                      alt="Linkedin"
+                  /></a>
+                </li>
+                <li class="social_link">
+                  <a rel="noopener" target="_blank" href="https://github.com/Caren-Koroeny"
+                    ><img
+                      class="social_icon"
+                      src="./images/github.png"
+                      alt="Github"
+                  /></a>
+              </li>
             </ul>
-          </div>
-       
-      </div>
-    </div>
-  </section>
-
-
-
-  <section class="container">
-    <div class="card one"></div>
-    <div class="card two" ></div>
-    <div class="card three" ></div>
-    <div class="card four"></div>
-</section>
-
-  <section class="container-about" >
-    <div class="cardabout-skill">
-    <div class="card-about">
-      <div class="title-about">
-        <h2>
-          About
-          <br>
-          Myself
-        </h2>
-      </div>
-
-      <div class="myself-text">
-        <p class="description">Hello I’m a software developer! I can help you build a product , feature or website Look
-          through some of my work and experience! If you like what you see and have a project you need coded, don’t
-          hestiate to contact me.</p>
-      </div>
-
-      <div class="social-about">
-        <a href="#" class="connection-about">LET'S CONNECT</a>
-        <ul class="media-icons-about">
-          <li><a href="#"><i class="fa-brands fa-twitter"></i></a>  </li>
-              <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-m"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-github"></i></a> </li>
-              <li><a href="#"> <i class="fa-solid fa-hand-peace"></i></a></li>
-        </ul>
-      </div>
-      <a
+            <div class="action">
+              <a
           class="primary-btn"
           rel="noopener"
           href="https://pdfhost.io/v/9i08Udc27_Carensiya_Resume"
           target="_blank"
           >Get my resume</a
         >
-    </div>
+            </div>
+          </div>
+          <div class="about-framework">
+            <ul class="about_ul">
+              <h3 class="sub_title">Languages</h3>
+              <div class="frame_work_items">
+                <li class="ul_item">
+                  <img src="./images/js.png" alt="JavaScript" /><span
+                    >JavaScript</span
+                  >
+                </li>
+                <li class="ul_item">
+                  <img src="./images/ruby-logo.png" alt="Ruby" /><span>Ruby</span>
+                </li>
+                <li class="ul_item">
+                  <img src="./images/html.png" alt="HTML" /><span
+                    >HTML</span
+                  >
+                </li>
+                <li class="ul_item">
+                  <img src="./images/css.png" alt="CSS" /><span>CSS</span>
+                </li>
+              </div>
+            </ul>
+            <ul class="about_ul">
+              <h3 class="sub_title">Frameworks</h3>
+              <div class="frame_work_items">
+                <li class="ul_item">
+                  <img src="./images/nodejs-logo.svg" alt="Nodejs" /><span
+                    >Nodejs</span
+                  >
+                </li>
+                <li class="ul_item">
+                  <img src="./images/react-logo.svg" alt="React" /><span>React</span>
+                </li>
+                <li class="ul_item">
+                  <img src="./images/ruby-logo.png" alt="Ruby_on_Rails" /><span
+                    >Ruby on Rails</span
+                  >
+                </li>
+              </div>
+            </ul>
+            <ul class="about_ul">
+              <h3 class="sub_title">Database</h3>
+              <div class="frame_work_items">
+                <li class="ul_item">
+                  <img src="./images/postgresql-logo.png" alt="PostgreSQL" /><span
+                    >PostgreSQL</span
+                  >
+                </li>
+              </div>
+            </ul>
+            <ul class="about_ul">
+              <h3 class="sub_title">Skills</h3>
+              <div class="skill_items">
+                <li class="skill_item">Teamwork</li>
+                <li class="skill_item">Leadership</li>
+                <li class="skill_item">Time Management</li>
+                <li class="skill_item">Cultural Diversity</li>
+                <li class="skill_item">Critical Thinking</li>
+              </div>
+            </ul>
+          </div>
+        </section>
 
-    <div class="lang">
-      <div class="title-about">
-        <h3 class="about-lang">Languages</h3>
-        <img src="./images/Union.svg" alt="" class="down-arrow">
-      </div>
-      <div class="lang-list">
-        <div class="display-flex">
-          <ul>
-            <li class="language-list">
-              <img src="./images/js.png" alt="javascript" class="images-lang">
-              <h4 class="language">javascript</h4>
-            </li>
-
-
-            <li class="language-list">
-              <img src="./images/html.png" alt="HTML" class="images-lang">
-              <h4 class="language">HTML</h4>
-            </li>
-
-            <li class="language-list">
-              <img src="./images/css.png" alt="CSS" class="images-lang">
-              <h4 class="language">CSS</h4>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="works-frame">
-        <li class="frame-work"> Frameworks
-          <img src="./images/left-arrow.png" alt="" class="left-arrow">
-
-        </li>
-        <img src="./images/Separator Bottom.png" alt="" class="seperator-btn">
-        <li class="frame-work"> Skills
-          <img src="./images/left-arrow.png" alt="" class="left-arrow2">
-        </li>
-
-        <img src="./images/Separator Bottom.png" alt="" class="seperator-btn">
-
-      </div>
-      </ul>
-    </div>
-    </div>
-</section>
-
-    <section class="contanct-containter" id="Contactme">
-      <footer class="contact-info">
-        <div class="backgound-image mobile"></div>
-        <div class="backgound-imageone desktopone"></div>
-          <div class="contact-title">
-            <h2 class="title2 desktop">Contact me</h2>
-            <p class="contacts-info">
-            If you have an application you are interested in developing, a feature that you need built or a project that
-            needs coding. I’d love to help with it
+        <!--contact form section-->
+        <section class="contact_form" id="contact">
+          <div class="contact_container">
+            <h2 class="title">Contact me</h2>
+            <p class="contact_form_des">
+              If you have an application you are interested in developing, a
+              feature that you need built or a project that needs coding.
+              I&#39;d love to help with it
             </p>
-            <div class="contact-form" >
-              <form class="action-form" action="https://formspree.io/f/xpznvdkn" method="post" id='myform'>
-                <label for="name" class="form-label">Name:</label>
-                <input type="text" class="label first" id="name" name="firstname" placeholder="Yeremias" maxlength="30" required>
-                <label for="email" class="form-label">Email:</label>
-                <input type="email" class="label email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="natajayanji4@gmail.com"  required>
-                <label for="subject" class="form-label">Subject:</label>
-                <textarea class="text-area" id="subject" name="subject" placeholder="Write your message here"  maxlength="500" required ></textarea>
-                <button id="submit">Get it Touch</button>
-              </form>
-              <img src="./images/Shape.svg" class="img-form" id="image-form" alt="">
-            </div>
+            <form
+              class="form_container"
+              id="contact-form"
+              method="POST"
+              action="https://formspree.io/f/mnqroaaw"
+            >
+              <fieldset class="form_inputs">
+                <input
+                  class="form_input"
+                  name="name"
+                  id="name"
+                  type="text"
+                  placeholder="Your Name"
+                  maxlength="30"
+                  required
+                />
+                <input
+                  class="form_input"
+                  name="email"
+                  id="email"
+                  type="email"
+                  placeholder="example@me.com"
+                  required
+                />
+                <textarea
+                  class="form_text_area"
+                  name="message"
+                  id="message"
+                  placeholder="Write your message here"
+                  maxlength="500"
+                  required
+                ></textarea>
+                <small id="form-info"></small>
+                <button type="submit" class="btn_submit">Get It Touch</button>
+              </fieldset>
+            </form>
           </div>
-        </div>
-      </footer>
-    </section>
-
-  <div class="modall">
-    <div class="modal-bg">
-     
-      <div class="modal">
-        <span class="close">X</span>
-        <h2 class="title1tonic"></h2>
-        <ul class="card1-badges"></ul>
-        <div class="image1modal"></div>
-        <div class="mobileimage"></div>
-        <div class="description-text">
-          <div class="text-para"></div>
-          <div class="links-lang">
-            <div class="modalsIcon"></div>
-            <div class="mobileIcons"></div>
-            <div class="links">
-              <div class="link-button"></div>
-            </div>
-          </div>
-        
-      </div>
+        </section>
+      </main>
     </div>
-  </div>
-
-  <section>
-    <div class="card-section"></div>
-  </section>
-<h4 onclick="modalPopupFunc()"></h4>
-
-    <script src="./assets/js/index.js"></script>
-    <script src="./assets/js/script.js"></script>
-    <script src="./assets/js/new.js"></script>
+    <script src="/assets/js/index.js"></script>
   </body>
 </html>

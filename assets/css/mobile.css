@@ -548,36 +548,27 @@
     margin-left: 25px;
   }
 
-
-  .primary-btn {
-    align-self: flex-start;
-    text-transform: capitalize;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 1.0625rem;
-    line-height: 1.5rem;
-    letter-spacing: 0.03em;
-    width: auto;
-    padding: 0.75rem;
-    border: 0.0625rem solid #6070ff;
-    border-radius: 0.5rem;
-    color: #396df2;
+  .about-submit-btn {
+    border-radius: 10px;
     background-color: #fff;
-    white-space: nowrap;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
     cursor: pointer;
-    transition: background-color 0.15s, box-shadow 0.15s;
+    border: 1px solid #396df2;
+    margin-left: -65px;
   }
-  
-  .primary-btn:hover {
-    color: #fff;
-    background: #6070ff;
-    box-shadow: 0 0.5rem 1rem rgb(64 83 252 / 24%);
+
+  .about-submit-btn a {
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 20px;
+    color: #396df2;
+    font-weight: 500;
+    padding: 10px;
+    align-items: center;
   }
-  
-  .primary-btn:active {
-    background-color: #2230d2;
-  }
-  
 
   .social-about {
     align-self: flex-start;
