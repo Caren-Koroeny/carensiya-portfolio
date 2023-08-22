@@ -153,17 +153,17 @@ const projectData = [
   },
   {
     id: 'project5',
-    title: 'LeaderBoard',
+    title: 'Hiddekel Designs',
     frame: ['Microverse', 'Frontend', 2023],
     primaryText:
       'My Leader Board Project will not function when you uyou submit a name and a score to the form, the leaderboard list will not automatically update itself. It requires you to hit the refresh button to fetch all the data from the API. Note that my leaderboard does not sort the scores it just displays them as they are.API will be impelemented soon, this is a set up of how it will generally look like.',
     tags: ['HTML', 'CSS', 'Javascript'],
     imageUrl:
-      'https://raw.githubusercontent.com/Caren-Koroeny/leader-board/development/src/image/image1.png',
+      'https://user-images.githubusercontent.com/55842414/262218311-b40b4cea-f758-4d1a-b1e6-ec7e16614af9.png',
     projectDetails:
       'My Leader Board Project will not function when you uyou submit a name and a score to the form, the leaderboard list will not automatically update itself. It requires you to hit the refresh button to fetch all the data from the API. Note that my leaderboard does not sort the scores it just displays them as they are.API will be impelemented soon, this is a set up of how it will generally look like.',
-    liveLink: 'https://github.com/Caren-Koroeny/leader-board',
-    sourceLink: 'https://github.com/Caren-Koroeny/leader-board',
+    liveLink: 'https://caren-koroeny.github.io/hiddekel-global-summit/',
+    sourceLink: 'https://github.com/Caren-Koroeny/hiddekel-global-summit',
   },
 ];
 
