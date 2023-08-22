@@ -194,11 +194,33 @@ a:hover {
 .type-animation {
   min-height: 208px;
 }
+.header-image{
+  display: flex;
+  
+}
+.carenimg {
+  margin-top: -5em;
+  margin-bottom: 20px;
+  max-width: 100%;
+  margin-right: -120%; /* Start off-screen to the left */
+  height: auto;
+  animation: slideIn 1s ease-in-out; /* Apply the animation */
+}
 
+/* Define the animation */
+@keyframes slideIn {
+  0% {
+      margin-left: -100%; /* Start off-screen to the left */
+  }
+  100% {
+      margin-left: 0; /* Move to its original position */
+  }
+}
 .headline_content {
   margin: 15px 0;
   color: #344563;
   font-weight: 400;
+  width: 50%;
 }
 
 .social_title {

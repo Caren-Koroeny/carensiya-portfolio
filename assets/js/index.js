@@ -7,7 +7,7 @@ function dcl(t = 'div') {
 }
 
 // This block for Type writer effect on headline section
-const heading = ' I am Caren Siya , <br/> Full Stack Web Developer!';
+const heading = ' I am Caren Siya , <br/> Full Stack Web <br/> Developer!';
 const hArr = heading.split(' ');
 let typeCount = 1;
 function typeWriter() {
@@ -115,7 +115,7 @@ const projectData = [
       'This is a budget app where you can setup your different budgets and you can create different categories and also delete your own categories and also create new transactions and also delete your own transactions.',
     tags: ['HTML', 'CSS', 'Javascript', 'PostgreSQL'],
     imageUrl:
-      'https://user-images.githubusercontent.com/55842414/253625244-eccd34dc-e017-4b0e-b89a-f75419b3156f.png',
+      '',
     projectDetails:
       'This is a budget app where you can setup your different budgets and you can create different categories and also delete your own categories and also create new transactions and also delete your own transactions.',
 
@@ -126,7 +126,7 @@ const projectData = [
   {
     id: 'project7',
     title: 'BookStore',
-    frame: ['Microverse', 'Frontend', 2023],
+    frame: ['Microverse', 'Frontend', 2022],
     primaryText:
       'Book Store is a Microverce React MVP project. Using this project user can read a book. User can see a book list. User can update a book. And also User can delete book from the book list.',
     tags: ['HTML', 'CSS', 'Javascript', 'React', 'Redux'],
@@ -140,12 +140,12 @@ const projectData = [
   {
     id: 'project6',
     title: 'Healthy Food Recipe',
-    frame: ['Microverse', 'Frontend', 2023],
+    frame: ['Microverse', 'Frontend', 2022],
     primaryText:
       'In this application, a user can search for recipes by category and get a list of all the meals. The user can also click on a particular meal to see the details of the ingredients and instructions on how to prepare it.',
     tags: ['HTML', 'CSS', 'Javascript', 'React', 'Redux'],
     imageUrl:
-      'https://user-images.githubusercontent.com/55842414/227455473-77779ecf-60fb-4c28-a500-e69d64e1ac68.png',
+      '',
     projectDetails:
       'In this project, I built a dynamic catalogue of food recipes app using react/redux, Axios, promises,amongst other tools.Recipes List page with a list of recipes that could be filtered by some parameters; in this project, its a list of recipes that can be filtered by ingredients (shrimp, broccoli, etc.)Recipe Item page for the recipe details; in this example, the recipe detail page (Preview Recipe).In this application, a user can search for recipes by category and get a list of all the meals. The user can also click on a particular meal to see the details of the ingredients and instructions on how to prepare it.',
     liveLink: 'https://deploy-preview-1--heroic-dasik-5790ea.netlify.app/',
@@ -154,7 +154,7 @@ const projectData = [
   {
     id: 'project5',
     title: 'Hiddekel Designs',
-    frame: ['Microverse', 'Frontend', 2023],
+    frame: ['Microverse', 'Frontend', 2022],
     primaryText:
       'My Leader Board Project will not function when you uyou submit a name and a score to the form, the leaderboard list will not automatically update itself. It requires you to hit the refresh button to fetch all the data from the API. Note that my leaderboard does not sort the scores it just displays them as they are.API will be impelemented soon, this is a set up of how it will generally look like.',
     tags: ['HTML', 'CSS', 'Javascript'],
