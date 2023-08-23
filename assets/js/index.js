@@ -90,8 +90,8 @@ const projectData = [
       'https://user-images.githubusercontent.com/79504482/256763599-86a413a9-db31-4679-b1e7-fa80099f5164.png',
     projectDetails:
       'Resort Booking is an innovative web application designed to empower travelers in finding and booking their dream resorts effortlessly. With an extensive collection of resorts and comprehensive details, users can explore diverse destinations, hand-picking their ideal getaway. The platform provides valuable insights into resort amenities, room types, and real-time availability, ensuring informed decision-making. Seamlessly managing bookings, users experience a hassle-free reservation process, making their vacation planning a breeze. With a user-friendly interface and an array of options, Resort Booking promises to redefine the way travelers embark on their next memorable journey.',
-    liveLink: 'https://resort-booking-front-end-c8l1.onrender.com/',
-    sourceLink: 'https://rideease.onrender.com/',
+    liveLink: 'https://rideease.onrender.com/',
+    sourceLink: 'https://github.com/shubhambhoyar077/rideease-backend',
   },
   {
     id: 'project9',
