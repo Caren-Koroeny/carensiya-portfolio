@@ -115,7 +115,7 @@ const projectData = [
       'This is a budget app where you can setup your different budgets and you can create different categories and also delete your own categories and also create new transactions and also delete your own transactions.',
     tags: ['HTML', 'CSS', 'Javascript', 'PostgreSQL'],
     imageUrl:
-      '',
+      'https://user-images.githubusercontent.com/55842414/262549783-a5064649-8349-40bc-9a29-1057ba5168ec.png',
     projectDetails:
       'This is a budget app where you can setup your different budgets and you can create different categories and also delete your own categories and also create new transactions and also delete your own transactions.',
 
@@ -145,7 +145,7 @@ const projectData = [
       'In this application, a user can search for recipes by category and get a list of all the meals. The user can also click on a particular meal to see the details of the ingredients and instructions on how to prepare it.',
     tags: ['HTML', 'CSS', 'Javascript', 'React', 'Redux'],
     imageUrl:
-      '',
+      'https://user-images.githubusercontent.com/55842414/262550185-45d2354e-8f09-4f9a-9354-ac6324bfb807.png',
     projectDetails:
       'In this project, I built a dynamic catalogue of food recipes app using react/redux, Axios, promises,amongst other tools.Recipes List page with a list of recipes that could be filtered by some parameters; in this project, its a list of recipes that can be filtered by ingredients (shrimp, broccoli, etc.)Recipe Item page for the recipe details; in this example, the recipe detail page (Preview Recipe).In this application, a user can search for recipes by category and get a list of all the meals. The user can also click on a particular meal to see the details of the ingredients and instructions on how to prepare it.',
     liveLink: 'https://deploy-preview-1--heroic-dasik-5790ea.netlify.app/',
@@ -153,15 +153,29 @@ const projectData = [
   },
   {
     id: 'project5',
+    title: 'Math Magician',
+    frame: ['Microverse', 'Frontend', 2022],
+    primaryText:
+      'Math magicians is a single page application that features three pages: A Home page with some welcoming textx, A Calculator page which has a page with a calculator that you can o math with and a Quotes page which has a quote about what "Math magicians are". Enjoy!',
+    tags: ['HTML', 'CSS', 'Javascript'],
+    imageUrl:
+      ' https://raw.githubusercontent.com/Caren-Koroeny/Math-Magician/dev/src/images/calculator.png ',
+    projectDetails:
+      ' Math magicians is a single page application that features three pages: A Home page with some welcoming text, A Calculator page which has a page with a calculator that you can o math with and a Quotes page which has a quote about what "Math magicians are". Enjoy!',
+    liveLink: 'https://carensiya-mathmagician.onrender.com/',
+    sourceLink: 'https://github.com/Caren-Koroeny/Math-Magician',
+  },
+  {
+    id: 'project4',
     title: 'Hiddekel Designs',
     frame: ['Microverse', 'Frontend', 2022],
     primaryText:
-      'My Leader Board Project will not function when you uyou submit a name and a score to the form, the leaderboard list will not automatically update itself. It requires you to hit the refresh button to fetch all the data from the API. Note that my leaderboard does not sort the scores it just displays them as they are.API will be impelemented soon, this is a set up of how it will generally look like.',
+      ' The Hiddekel Global Summit is a web-based platform designed to allow users from around the world to showcase their printing machines. Whether they own a small desktop printer or manage a large-scale industrial printing operation, this platform offers a space to display their equipment, share specifications, and connect with potential buyers, collaborators, or enthusiasts.',
     tags: ['HTML', 'CSS', 'Javascript'],
     imageUrl:
       'https://user-images.githubusercontent.com/55842414/262218311-b40b4cea-f758-4d1a-b1e6-ec7e16614af9.png',
     projectDetails:
-      'My Leader Board Project will not function when you uyou submit a name and a score to the form, the leaderboard list will not automatically update itself. It requires you to hit the refresh button to fetch all the data from the API. Note that my leaderboard does not sort the scores it just displays them as they are.API will be impelemented soon, this is a set up of how it will generally look like.',
+      ' The Hiddekel Global Summit is a web-based platform designed to allow users from around the world to showcase their printing machines. Whether they own a small desktop printer or manage a large-scale industrial printing operation, this platform offers a space to display their equipment, share specifications, and connect with potential buyers, collaborators, or enthusiasts.',
     liveLink: 'https://caren-koroeny.github.io/hiddekel-global-summit/',
     sourceLink: 'https://github.com/Caren-Koroeny/hiddekel-global-summit',
   },

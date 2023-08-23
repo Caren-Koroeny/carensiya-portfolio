@@ -194,7 +194,10 @@ a:hover {
 .type-animation {
   min-height: 208px;
 }
-.header-image{
+.headline_content{
+  margin-top: -30em;
+}
+.header_image{
   display: flex;
   
 }
@@ -220,7 +223,6 @@ a:hover {
   margin: 15px 0;
   color: #344563;
   font-weight: 400;
-  width: 50%;
 }
 
 .social_title {
@@ -803,4 +805,5 @@ a:hover {
   .contact_container {
     width: 1000px;
   }
+
 }
