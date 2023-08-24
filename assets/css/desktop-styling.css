@@ -202,13 +202,17 @@ a:hover {
   display: flex;
   
 }
-.carenimg {
-  margin-top: -5em;
+.carenimg{
   margin-bottom: 20px;
   max-width: 100%;
-  margin-right: -120%; /* Start off-screen to the left */
+  max-width: 40%; 
   height: auto;
-  animation: slideIn 1s ease-in-out; /* Apply the animation */
+  animation: slideIn 1s ease-in-out; 
+  margin-bottom: 20px;
+  max-width: 100%; /* Adjust the percentage to your desired size */
+  border-radius: 50%;
+  height: 300px;
+
 }
 
 /* Define the animation */
@@ -218,6 +222,17 @@ a:hover {
   }
   100% {
       margin-left: 0; /* Move to its original position */
+  }
+}
+
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .work_experience {
+    padding: 10px;
+  }
+  .carenimg {
+   display: none;
   }
 }
 .headline_content {
@@ -664,7 +679,8 @@ a:hover {
   align-self: flex-end;
   cursor: pointer;
   position: fixed;
-  background-color: #121111;
+  background-color: #212020;
+  border-radius:5px ;
 }
 
 /* Media Query */

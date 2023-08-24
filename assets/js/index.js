@@ -7,7 +7,7 @@ function dcl(t = 'div') {
 }
 
 // This block for Type writer effect on headline section
-const heading = ' I am Caren Siya , <br/> Full Stack Web <br/> Developer!';
+const heading = ' Hi 👋,<br> my name is Caren siya <br>  i build things for web';
 const hArr = heading.split(' ');
 let typeCount = 1;
 function typeWriter() {
