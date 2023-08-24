@@ -146,7 +146,7 @@ a:hover {
 
 .toggle-cross {
   top: 20px;
-  color: #fff;
+  color: #121111;
   font-size: 18px;
   line-height: 12px;
   position: absolute;
@@ -155,6 +155,7 @@ a:hover {
   padding: 5px;
   cursor: pointer;
   border-radius: 3px;
+  border: #080a18;
 }
 
 .toggle-cross:hover {
@@ -663,6 +664,7 @@ a:hover {
   align-self: flex-end;
   cursor: pointer;
   position: fixed;
+  background-color: #121111;
 }
 
 /* Media Query */
